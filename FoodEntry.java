@@ -1,7 +1,7 @@
 //Created by Sebastian for FooDB
 
 //created 12/09/19
-//updated 16/09/19
+//updated 18/09/19
 
 //Generic object containing all of the needed information for any database item
 
