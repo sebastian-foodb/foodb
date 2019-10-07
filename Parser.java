@@ -39,6 +39,7 @@ public class Parser {
 
 			line = bufferedReader.readLine();
 			bufferedWriter.write(line);
+			bufferedWriter.newLine();
 
 			
 			// I changed the init of the previous to reflect the first line of food.csv
@@ -55,10 +56,10 @@ public class Parser {
 			while((line = bufferedReader.readLine()) != null) {
 				int same = 0;
 				if (previous != "") {
-					spltline = line.split(",");
-					prevsplit = previous.split(",");
-					namesplit = spltline[2].split(",");
-					prevnamesplit = prevsplit[2].split(",");
+					spltline = line.split("\"");
+					prevsplit = previous.split("\"");
+					namesplit = spltline[5].split(",");
+					prevnamesplit = prevsplit[5].split(",");
 				}
 				else {
 					
@@ -72,6 +73,7 @@ public class Parser {
 
 				if(same < 3) {
 					bufferedWriter.write(line);
+					bufferedWriter.newLine();;
 				}
 
 				previous = line;
