@@ -5,22 +5,40 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
 
+/* Test code for parsing the food.csv file */
+
+ /* HOW TO USE: for now change the pathname string to whatever file
+ * path leads to the food.csv. This may be useful to update to work
+ * without the need for modification in the future.*/
 
 public class Parser {
 	
-	private static File bigFile = new File("food.csv"); 
-	private static File parsedFile = new File("parsedfood.csv");
-	
-	
+	private File bigFile;
+	private String filepath = "Users/f16cd/eclipse-workspace/FoodbParser/src/food.csv";
 	
 	
 	public static void main(String[] args) {
 		
+		Parser parser = new Parser();
+		
+	}
+	
+	public Parser() {
+		System.out.println(new File(".").getAbsolutePath());
+		//create();
+		//parse();
+	}
+
+	private void create() {
+		 
+		bigFile = new File(filepath);
+	}
+	private void parse() {
 		try {
 			FileReader fileReader = new FileReader(bigFile);
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
 			String line;
-			FileWriter fileWriter = new FileWriter(parsedFile);
+			FileWriter fileWriter = new FileWriter("parsedfood.csv");
 			BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 			
 			line = bufferedReader.readLine();
@@ -59,11 +77,9 @@ public class Parser {
 
 			
 		}catch(Exception e) {
-			
+			System.out.println("Exception");
+			e.printStackTrace();
 		}
-		System.out.println("yo");
-		
-		
 		
 	}
 	
