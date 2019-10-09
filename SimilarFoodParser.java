@@ -33,7 +33,7 @@ public class SimilarFoodParser {
 			FileReader fileReader = new FileReader(bigFile);
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
 			String line;
-			FileWriter fileWriter = new FileWriter("parsedfoodshort.csv");
+			FileWriter fileWriter = new FileWriter("parsedfood.csv");
 			BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
 			line = bufferedReader.readLine();
@@ -105,15 +105,11 @@ public class SimilarFoodParser {
 			cmp = line[i];
 			try {
 				if(cmp.charAt(0) == '\"') {
-					if(Character.isDigit(cmp.charAt(1))) {
+					if(Character.isDigit(cmp.charAt(1)) || cmp.equals("")) {
 						if(i < end) {
 							end = i;
 						}
 					}
-					else if(cmp.equals("")) {
-						if(i < end) end = i;
-					}
-
 				}
 			}
 			catch(Exception e) {
