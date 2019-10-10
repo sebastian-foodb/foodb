@@ -1,7 +1,7 @@
 <!--Created by Sebastian for FooDB-->
 
 <!--created 02/10/19-->
-<!--updated 06/10/19-->
+<!--updated 10/10/19-->
 
 <!DOCTYPE html>
 
@@ -9,22 +9,25 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FooDB: Culinary Database</title>
-    <!--main page formatting will be offloaded to CSS-->
+    <!--offload formatting-->
     <link rel="stylesheet" href="index.css"/>
   </head>
 
   <body>
-    <!--search bar-->
     <div class="searchbarbg">
       <!--logo and background-->
       <h1 id="logo">FooDB</h1>
       <h2 id="subtitle">Culinary Database</h2>
-      <div class="searchbar">
-        <input type="text" placeholder="search database">
+
+      <!--function that handles the search query-->
+      <div id="searchbar">
+        <form onsubmit="testSubmission()">
+          <input id="foodsearch" placeholder="search database" type="text">
+        </form>
       </div>
     </div>
 
-    <!--javascript functionality-->
-    <script type="text/javascript" src="TEST.js"></script>
+    <!--offload search functionality-->
+    <script type="text/javascript" src="ProcessFoodSearch.js"></script>
   </body>
 </html>
