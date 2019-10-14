@@ -12,6 +12,7 @@ import java.util.ArrayList;
 public class Parser {
 
 	private File bigFile;
+	private int index = 0;
 
 
 	public static void main(String[] args) {
@@ -39,16 +40,18 @@ public class Parser {
 
 			line = bufferedReader.readLine();
 			bufferedWriter.write(line);
+			bufferedWriter.newLine();
 
-			
+
 			// I changed the init of the previous to reflect the first line of food.csv
 			// since the first line of content will never be a duplicate -A
 			line = bufferedReader.readLine();
 			String previous = line;
 			String[] prevsplit = {""};
 			String[] spltline = {""};
-			String[] namesplit = {""};
-			String[] prevnamesplit = {""};
+			int endIndex = 0;
+			int prevEndIndex = 0;
+			int imax;
 			bufferedWriter.write(line);
 			line = bufferedReader.readLine();
 
@@ -57,24 +60,33 @@ public class Parser {
 				if (previous != "") {
 					spltline = line.split(",");
 					prevsplit = previous.split(",");
-					namesplit = spltline[2].split(",");
-					prevnamesplit = prevsplit[2].split(",");
-				}
-				else {
-					
+					endIndex = findEnd(spltline);
+					prevEndIndex = findEnd(prevsplit);
 				}
 
-				for(int i = 0; i < namesplit.length; i++) {
-					if(namesplit[i].compareTo(prevnamesplit[i]) == 0) {
+				if (endIndex < prevEndIndex) {
+					imax = endIndex;
+				}
+				else {
+					imax = prevEndIndex;
+				}
+				if(index == 106) {
+					//System.out.println("100!");
+				}
+
+				for(int i = 2; i < imax; i++) {
+					if(spltline[i].compareTo(prevsplit[i]) == 0) {
 						same++;
 					}
 				}
 
 				if(same < 3) {
 					bufferedWriter.write(line);
+					bufferedWriter.newLine();;
 				}
 
 				previous = line;
+				index++;
 
 			}
 
@@ -84,10 +96,35 @@ public class Parser {
 
 
 		}catch(Exception e) {
-			System.out.println("Exception");
+			System.out.println(index);
 			e.printStackTrace();
 		}
 
+	}
+
+	private int findEnd(String[] line) {
+		int end = 99;
+		String cmp;
+		for(int i = 2; i < line.length; i++) {
+			cmp = line[i];
+			try {
+				if(cmp.charAt(0) == '\"') {
+					if(Character.isDigit(cmp.charAt(1))) {
+						if(i < end) {
+							end = i;
+						}
+					}
+					else if(cmp.equals("")) {
+						if(i < end) end = i;
+					}
+
+				}
+			}
+			catch(Exception e) {
+				end = i;
+			}
+		}
+		return end;
 	}
 
 
