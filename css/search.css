@@ -1,0 +1,38 @@
+/*Created by Sebastian for FooDB*/
+
+/*created 09/10/19*/
+/*updated 13/10/19*/
+
+#topbar
+{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 0%;
+  left: 0%;
+  background-image: linear-gradient(#00e700,#00b700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#searchbar
+{
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+#searchbar input[type=text]
+{
+  position: absolute;
+  width: 50%;
+  top: 0%;
+  font-family: "Helvetica";
+  font-size: 2.5vw;
+  padding: 1%;
+  text-align: left;
+  color: #005500;
+  background-color: #eeffee;
+  text-overflow: ellipsis;
+}

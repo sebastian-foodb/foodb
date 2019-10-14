@@ -1,18 +1,20 @@
 //Created by Sebastian for FooDB
 
 //created 02/10/19
-//updated 10/10/19
+//updated 13/10/19
+
+//attributes
+var searchTerm, formattedSearchTerm, foodQuery;
 
 //test function
 function testSubmission()
 {
   var x = document.getElementById("foodsearch").value;
   x = x.toLowerCase().replace(/[^\w\s]/gi,"").replace(/[_]/gi,"");
-  alert("You entered \""+x+"\" into the search bar.\nProud of yourself, big man?");
+  //alert("You entered \""+x+"\" into the search bar.\nProud of yourself, big man?");
+  setSearchTerm(x);
+  window.open("search.html");
 }
-
-//attributes
-var searchTerm, formattedSearchTerm, foodQuery;
 
 //find database results for the user's query
 function formatFoodSearch()
@@ -40,4 +42,21 @@ function submitSearchToDatabase()
     foodQuery.open("GET","JAVA_SQL/Manager.java",true);
     foodQuery.send();
   }
+}
+
+//
+//setters and getters
+//
+function setSearchTerm(term)
+{
+  searchTerm = term;
+}
+function getSearchTerm()
+{
+  return searchTerm;
+}
+
+function getFormmatedSearchTerm()
+{
+  return formattedSearchTerm;
 }

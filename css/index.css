@@ -1,7 +1,7 @@
 /*Created by Sebastian for FooDB*/
 
 /*created 05/10/19*/
-/*updated 10/10/19*/
+/*updated 13/10/19*/
 
 /*general parameters*/
 h1,h2
@@ -12,6 +12,12 @@ h1,h2
   position: absolute;
   text-align: center;
   text-overflow: ellipsis;
+}
+
+a
+{
+  text-decoration: none;
+  color: #005500;
 }
 
 /*"foodb" on the index page*/
@@ -34,7 +40,7 @@ h1,h2
   font-size: 36px;
 }
 
-/*search bar and page background*/
+/*page background and search bar*/
 .searchbarbg
 {
   position: absolute;
@@ -61,7 +67,7 @@ h1,h2
   font-size: 2.5vw;
   padding: 1%;
   text-align: left;
-  color: #000000;
+  color: #005500;
   background-color: #eeffee;
   text-overflow: ellipsis;
 }
