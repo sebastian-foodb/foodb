@@ -27,8 +27,9 @@ public class FDC_API_TEST {
 			
 			JSONParser jsonParser = new JSONParser();
 			JSONObject jsonObject = (JSONObject)jsonParser.parse(new InputStreamReader(input, "UTF-8"));
+
 			
-			
+			System.out.println(jsonObject.toJSONString());
 	}
 	
 
