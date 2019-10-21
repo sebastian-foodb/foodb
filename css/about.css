@@ -1,7 +1,13 @@
 /*Created by Sebastian for FooDB*/
 
 /*created 13/10/19*/
-/*updated 13/10/19*/
+/*updated 20/10/19*/
+
+a
+{
+  text-decoration: none;
+  color: #009900;
+}
 
 h1,p
 {
@@ -16,12 +22,6 @@ h1,p
   height: 80%;
   top: 10%;
   left: 10%;
-}
-
-a
-{
-  text-decoration: none;
-  color: #009900;
 }
 
 .background

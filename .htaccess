@@ -1,0 +1,14 @@
+#Created by Sebastian for FooDB
+
+#created 17/10/19
+#updated 17/10/19
+
+#cosmetically remove .html from page files
+#this file will appear hidden, so expect that
+
+#WILL BE IMPLEMENTED IF .html IS REMOVED FROM FILE NAMES AND CALLS
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
