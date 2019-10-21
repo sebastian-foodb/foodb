@@ -1,0 +1,55 @@
+<!--Created by Sebastian for FooDB-->
+
+<!--created 09/10/19-->
+<!--updated 20/10/19-->
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title><!--set by scripts-->
+  <link rel="stylesheet" href="../css/search.css"/>
+</head>
+
+<body onload="addSearchTerms()">
+  <!--search bar that sticks to the top of the page-->
+  <div id="background">
+    <div id="banner">
+      <div>
+        <a href="index.html" target="_self"><span id="logo">FooDB </span></a><span id="header"> search results</span>
+      </div>
+      <div id="searchbar">
+        <form onsubmit="formatFoodSearch()">
+          <input id="foodsearch" placeholder="search database" type="text">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!--search results-->
+  <div>
+    <!---->
+  </div>
+
+  <hr><!--put horizontal rules between results-->
+
+  <div>
+    <!---->
+  </div>
+
+  <script type="text/javascript" src="../js/jquery-3.4.1.js"></script>
+  <!--script type="text/javascript" src="../js/SearchResultsPage.js"></script-->
+  <script type="text/javascript" src="../js/ProcessFoodSearch.js"></script>
+  <script type="text/javascript">
+    function addSearchTerms()
+    {
+      //search term in window title
+      document.title = "FooDB | "+localStorage.searchterm+" search results";
+
+      //search term as search bar value
+      document.getElementById("foodsearch").value = localStorage.searchterm;
+    }
+  </script>
+</body>
+</html>

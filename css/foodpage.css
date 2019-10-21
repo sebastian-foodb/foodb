@@ -1,0 +1,74 @@
+/*Created by Sebastian for FooDB*/
+
+/*created 15/10/19*/
+/*updated 17/10/19*/
+
+/*page background and page layout*/
+h1
+{
+  /*TODO*/
+}
+
+.background
+{
+  width: 100%;
+  left: 0%;
+  background-image: linear-gradient(#00e700,#00b700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#centerbox
+{
+  width: 90%;
+  left: 5%;
+  background-image: linear-gradient(#eeffee,#eecfee);
+}
+.background,#centerbox
+{
+  position: absolute;
+  height: 100%;
+  top: 0%;
+}
+
+/*nutrient content*/
+#nutritiongrid
+{
+  /*TODO*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(3%,1fr));
+  overflow-wrap: break-word;
+  grid-gap: 10%;
+}
+
+table
+{
+  /*TODO*/
+  width: auto;
+  border: 0px solid rgb(0,0,0);
+}
+
+th
+{
+  /*TODO*/
+  font-weight: 500;
+
+}
+
+td
+{
+  /*TODO*/
+  font-weight: lighter;
+}
+
+/*shared qualities*/
+th,td
+{
+  text-align: center;
+}
+h1,th,td
+{
+  font-family: "Helvetica";
+  color: #005500;
+  text-overflow: ellipsis;
+}
