@@ -36,9 +36,9 @@ h1
 {
   /*TODO*/
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(3%,1fr));
+  grid-template-columns: minmax(3%,1fr);
   overflow-wrap: break-word;
-  grid-gap: 10%;
+  grid-gap: 5px;
 }
 
 table
@@ -52,7 +52,6 @@ th
 {
   /*TODO*/
   font-weight: 500;
-
 }
 
 td
