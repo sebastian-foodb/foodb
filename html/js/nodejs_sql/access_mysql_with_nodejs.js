@@ -15,7 +15,7 @@ var connection = includesql.createConnection(
   {
     host: "localhost",
     user: "root",
-    password: ""//varies with your database
+    password: "yummy2015"//varies with your database
   });
 
   //verify connection
