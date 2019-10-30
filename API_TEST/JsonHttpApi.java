@@ -13,15 +13,17 @@ public class JsonHttpApi {
 
 	private String apiKey = "W6yzeMeK7FKd9jtH4bjUemFSXaFvxaipmfvSnIeI";
 	private String num;
-	JSONObject jo;
+	private JSONObject jo;
 
 	public JsonHttpApi(String num) {
 		this.num = num;
+		fetchJson(num);
 	}
 	public JsonHttpApi(String num, String apiKey) {
 
 		this.apiKey = apiKey;
 		this.num = num;
+		fetchJson(num);
 
 	}
 
