@@ -19,20 +19,9 @@ public class TestNut {
 		
 		JSONArray array;
 		
-		// as parsenut object is initialized with each fdc id. This does an API request and
-		// converts the json data to java objects
-		for(int i = 0; i < test.length; i++) {
-			
-			nut = new ParseNut(test[i]);
-			//nut.printJsonArray();
-			array = nut.getJsonArray();
-			System.out.println(array.get(0));
-			JSONObject obj = array.getJSONObject(0);
-			JSONObject nutrient = obj.getJSONObject("nutrient");
-			//System.out.println(obj.get("nutrient"));
-			String amount = String.valueOf(obj.getFloat("amount"));
-			
-			
-		}
+		nut = new ParseNut(test[0]);
+		
+		nut.parseJsonArray();
+
 	}
 }
