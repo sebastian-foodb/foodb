@@ -35,43 +35,54 @@ public class ParseNut {
 	}
 
 	public void parseJsonArray() {
-		arr = object.getJSONArray("foodNutrients");
-		String[][] ret = new String[arr.length()][3];
-		for (int i = 0; i < arr.length(); i++) {
+		try {
+			arr = object.getJSONArray("foodNutrients");
+			String[][] ret = new String[arr.length()][3];
+			for (int i = 0; i < arr.length(); i++) {
 
-			// obj is the working JSON Array index since the foodNutrients JSONArray
-			// is an array of json objects.
-			JSONObject obj = arr.getJSONObject(i);
+				// obj is the working JSON Array index since the foodNutrients JSONArray
+				// is an array of json objects.
+				JSONObject obj = arr.getJSONObject(i);
 
-			// nutrient is the nutrient object information for the particular json index.
-			JSONObject nutrient = obj.getJSONObject("nutrient");
+				// nutrient is the nutrient object information for the particular json index.
 
-			// self-explanatory: extracts name, amount, and the units from the nutrient JSON object.
-			String amount;
-			try {
-				amount = String.valueOf(obj.get("amount"));
-			}
-			catch(Exception e) {
-				amount = nutrient.getString("number");
-			}
-			String name = nutrient.getString("name");
-			String unitName = nutrient.getString("unitName");
+				JSONObject nutrient = obj.getJSONObject("nutrient");
 
-			try {
-				testValid(name, amount, unitName);
-			}
-			catch (Exception e) {
 
-				for(int j = 0; j < 17; j++) {
+				// self-explanatory: extracts name, amount, and the units from the nutrient JSON object.
+				String amount;
+				try {
+					amount = String.valueOf(obj.get("amount"));
+				}
+				catch(Exception e) {
+					amount = nutrient.getString("number");
+				}
+				String name = nutrient.getString("name");
+				String unitName = nutrient.getString("unitName");
 
-					// error -2: something went wrong with the testValid method.
-					nutrients [j][0] = "-2";
-					nutrients [j][1] = "-2";
+				try {
+					testValid(name, amount, unitName);
+				}
+				catch (Exception e) {
+
+					errorCondition();
 				}
 			}
-
+		}
+		catch(Exception e) {
+			errorCondition();
 		}
 	}
+	private void errorCondition() {
+		for(int j = 1; j < 17; j++) {
+
+			// error -2: something went wrong with the testValid method.
+			nutrients [j][0] = "-2";
+			nutrients [j][1] = "-2";
+		}
+
+	}
+
 	private boolean testValid(String name, String amount, String unit) {
 		//TODO: test for different nutrients we want.
 		boolean ret = false;
