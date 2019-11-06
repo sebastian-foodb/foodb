@@ -15,11 +15,12 @@ public class TestNut {
 		
 		//The test string is created, filled with some random FDC IDs.
 		//String[] test = {"341471", "172664", "167698"};
-		String [] test = {"341471"};
+		String [] test = {"167782"};
 		
 		JSONArray array;
 		
 		nut = new ParseNut(test[0]);
+		nut.printJsonArray();
 		
 		nut.parseJsonArray();
 
