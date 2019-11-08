@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jq</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body bgcolor="#337733">
+  <div id="plea">please this needs to stop being this exact text</div>
+  <button type="button">please work</button>
+  <script src="../../js/jquery-3.4.1.js"></script>
+  <script>
+  //pull data from testconnect.py
+  //start a server first
+  //navigate to the html folder then type
+  //  python3 -m http.server
+  $(document).ready(function()
+  {
+    $("button").click(function()
+    {
+      $.get(
+        "help.py",//"http://localhost:8000/sqlite/pytest/help.py",
+        function(requestData)
+        {
+          $("#plea").html(requestData);
+        });
+      });
+    });
+    </script>
+  </body>
+  </html>

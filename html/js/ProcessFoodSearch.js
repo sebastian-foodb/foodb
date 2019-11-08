@@ -1,17 +1,13 @@
 //Created by Sebastian for FooDB
 
 //created 02/10/19
-//updated 25/10/19
+//updated 30/10/19
 
-function formatFoodSearch()
+function addSearchToURL()
 {
-  //reformat the submitted search term
-  var searchTermFormatted = document.getElementById("foodsearch").value
-    .toLowerCase()
-    .replace(/\s/g,"")
-    .replace(/[^\w]/g,"")
-    .replace(/[_]/g,"");
-
-  //open the search results page
-  window.open("search.html?q="+document.getElementById("foodsearch").value);
+  //dont bother opening a search page for a blank query
+  if(document.getElementById("foodsearch").value.replace(/\s/g,"") != "")
+  {
+    window.open("search.html?q="+document.getElementById("foodsearch").value);
+  }
 }
