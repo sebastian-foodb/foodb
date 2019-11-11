@@ -15,7 +15,7 @@ public class TestNut {
 		
 		//The test string is created, filled with some random FDC IDs.
 		//String[] test = {"341471", "172664", "167698"};
-		String [] test = {"325130"};
+		String [] test = {"173173"};
 		
 		
 		nut = new ParseNut(test[0]);

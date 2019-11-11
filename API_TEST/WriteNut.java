@@ -36,7 +36,7 @@ public class WriteNut {
 
 			int i = 0;
 			br.readLine();
-			while ((current = br.readLine()) != null) {
+			while ((current = br.readLine()) != null ) {
 
 				String[] line = current.split(",");
 				if(Long.valueOf(line[0]) < 100000) {

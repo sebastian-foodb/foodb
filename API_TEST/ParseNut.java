@@ -37,7 +37,6 @@ public class ParseNut {
 	public void parseJsonArray() {
 		try {
 			arr = object.getJSONArray("foodNutrients");
-			String[][] ret = new String[arr.length()][3];
 			for (int i = 0; i < arr.length(); i++) {
 
 				// obj is the working JSON Array index since the foodNutrients JSONArray
@@ -91,104 +90,114 @@ public class ParseNut {
 
 		case "Sodium, Na":
 			ret = true;
-			nutrients[3][0] = amount;
-			nutrients[3][1] = unit;
-			break;
-
-		case "Sugar":
-			ret = true;
-			nutrients[6][0] = amount;
-			nutrients[6][1] = unit;
-			break;
-
-		case "Fiber":
-			ret = true;
-			nutrients[5][0] = amount;
-			nutrients[5][1] = unit;
-			break;
-
-		case "Vitamin B-6":
-			ret = true;
-			nutrients[12][0] = amount;
-			nutrients[12][1] = unit;
-			break;
-
-		case "Vitamin B-12":
-			ret = true;
-			nutrients[13][0] = amount;
-			nutrients[13][1] = unit;
-			break;
-
-		case "Carbohydrate":
-			ret = true;
 			nutrients[4][0] = amount;
 			nutrients[4][1] = unit;
 			break;
 
-		case "Protein":
+		case "Sugar":
 			ret = true;
 			nutrients[7][0] = amount;
 			nutrients[7][1] = unit;
 			break;
 
-		case "Total lipid (fat)":
+		case "Fiber":
 			ret = true;
-			nutrients[1][0] = amount;
-			nutrients[1][1] = unit;
+			nutrients[6][0] = amount;
+			nutrients[6][1] = unit;
 			break;
 
-		case "fat":
+		case "Vitamin B-6":
 			ret = true;
-			nutrients[1][0] = amount;
-			nutrients[1][1] = unit;
+			nutrients[13][0] = amount;
+			nutrients[13][1] = unit;
 			break;
 
-		case "Iron, Fe":
+		case "Vitamin B-12":
 			ret = true;
-			nutrients[9][0] = amount;
-			nutrients[9][1] = unit;
+			nutrients[14][0] = amount;
+			nutrients[14][1] = unit;
 			break;
 
-		case "Calcium, Ca":
+		case "Carbohydrate":
 			ret = true;
-			nutrients[10][0] = amount;
-			nutrients[10][1] = unit;
+			nutrients[5][0] = amount;
+			nutrients[5][1] = unit;
 			break;
 
-		case "Vitamin A, RAE":
-			ret = true;
-			nutrients[11][0] = amount;
-			nutrients[11][1] = unit;
-			break;
-
-		case "Cholesterol":
-			ret = true;
-			nutrients[2][0] = amount;
-			nutrients[2][1] = unit;
-			break;
-
-		case "Energy": //calories
-			ret = true;
-			nutrients[0][0] = amount;
-			nutrients[0][1] = unit;
-			break;
-
-		case "Vitamin D (D2 + D3)":
-			ret = true;
-			nutrients[15][0] = amount;
-			nutrients[15][1] = unit;
-			break;
-
-		case "Potassium, K":
+		case "Protein":
 			ret = true;
 			nutrients[8][0] = amount;
 			nutrients[8][1] = unit;
 			break;
 
-		case "Vitamin E":
+		case "Total lipid (fat)":
+			ret = true;
+			nutrients[2][0] = amount;
+			nutrients[2][1] = unit;
+			break;
+
+		case "fat":
+			ret = true;
+			nutrients[2][0] = amount;
+			nutrients[2][1] = unit;
+			break;
+
+		case "Iron, Fe":
+			ret = true;
+			nutrients[10][0] = amount;
+			nutrients[10][1] = unit;
+			break;
+
+		case "Calcium, Ca":
+			ret = true;
+			nutrients[11][0] = amount;
+			nutrients[11][1] = unit;
+			break;
+
+		case "Vitamin A, RAE":
+			ret = true;
+			nutrients[12][0] = amount;
+			nutrients[12][1] = unit;
+			break;
+
+		case "Cholesterol":
+			ret = true;
+			nutrients[3][0] = amount;
+			nutrients[3][1] = unit;
+			break;
+
+		case "Energy": //calories
+			ret = true;
+			nutrients[1][0] = amount;
+			nutrients[1][1] = unit;
+			break;
+
+		case "Vitamin D (D2 + D3)":
 			ret = true;
 			nutrients[16][0] = amount;
 			nutrients[16][1] = unit;
+			break;
+			
+		case "Vitamin C":
+			ret = true;
+			nutrients[15][0] = amount;
+			nutrients[15][0] = amount;
+			
+		case "Vitamin C, total ascorbic acid":
+			ret = true;
+			nutrients[15][0] = amount;
+			nutrients[15][0] = amount;
+
+		case "Potassium, K":
+			ret = true;
+			nutrients[9][0] = amount;
+			nutrients[9][1] = unit;
+			break;
+
+		case "Vitamin E":
+			ret = true;
+			nutrients[17][0] = amount;
+			nutrients[17][1] = unit;
 			break;
 
 		}
