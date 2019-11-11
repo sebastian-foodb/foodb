@@ -1,22 +1,20 @@
 # FooDB
 
 # Required Tech
-Apache HTTP Server
+Apache 2.4 HTTP Server
   https://httpd.apache.org/download.cgi
 
   Configure local server on macOS
-  https://www.dyclassroom.com/howto-mac/how-to-install-apache-mysql-php-on-macos-mojave-10-14
+    https://www.dyclassroom.com/howto-mac/how-to-install-apache-mysql-php-on-macos-mojave-10-14
+
+  Enable pages on the server to run Python scripts as CGI
+    https://httpd.apache.org/docs/2.4/howto/cgi.html
 
 Node.js
   https://nodejs.org/en/download/
 
-Python 3.x
+Python
   https://www.python.org/downloads/
-  (MIGHT REMOVE) Flask
-    https://palletsprojects.com/p/flask/
-    Navigate to the directory containing the Flask-enabled script then enter
-    env FLASK_APP=script_file.py FLASK_ENV=development flask run
-    port will default to 5000
 
 SQLite
   https://www.sqlite.org/download.html
