@@ -1,0 +1,63 @@
+<!--Created by Sebastian for FooDB-->
+
+<!--created 02/10/19-->
+<!--updated 06/10/19-->
+<!--For Nathan's Testing Purposes-->
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FooDB: Culinary Database</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!--main page formatting will be offloaded to CSS-->
+    <link rel="stylesheet" href="index.css"/>
+
+    <script>
+
+            $(function()
+            {
+                $('#clickme').click(function(){
+                    alert('Im going to start processing');
+
+                    $.ajax({
+                        url: "http://Npgreader2.pythonanywhere.com",
+                        type: "POST",
+                        datatype:"json",
+                        data: JSON.stringify({'queryType':'Exact','parameters':'bagelswheat'}),
+                        success: function(response){
+                            alert('Yooo');
+                            alert(response.sanity);
+                            alert(response.dbReturn);
+                        },
+                        error : function(ts) {
+                            alert(ts.responseStatus);
+                            alert(this.url);
+                        }
+                    });
+                      return false;
+                });
+            });
+
+        </script>
+
+
+  </head>
+
+  <body>
+    <!--search bar-->
+
+
+    <input type="button" value="heyo" id="clickme">
+
+    <!--javascript functionality-->
+
+
+    <!--<script type="text/javascript" src="javascriptDB.js"></script>-->
+  </body>
+
+
+</html>
