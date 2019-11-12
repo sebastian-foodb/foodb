@@ -1,0 +1,4 @@
+#!/bin/bash
+printf "\nEnter your password to change the permissions of the scripts in this folder.\n"
+sudo chmod 755 /PYTHON_SQL/*.py
+printf "\nScript permissions have been successfully changed.\n\n"

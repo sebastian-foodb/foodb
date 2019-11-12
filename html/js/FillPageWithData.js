@@ -1,7 +1,7 @@
 //Created by Sebastian for FooDB
 
 //created 25/10/19
-//updated 25/10/19
+//updated 11/11/19
 
 function getNutritionFromDatabase()
 {
@@ -10,52 +10,21 @@ function getNutritionFromDatabase()
   document.title = "FooDB | "+urlProperName;
   document.getElementsByTag("h1") = urlProperName;
 
-  //get nutrition from database
-  var nutritionString;
-  var getSQL = new XMLHTTPRequest();
-  getSQL.onreadystatechange = function()
-  {
-    if(this.readyState == 4 && this.status == 200)
+  //get relevant nutrition data
+  $.ajax(
     {
-      var stringsMatch = new Boolean(false);
-      while(!stringsMatch)
+      type: "GET",
+      data: urlProperName,
+      url: "cgi-bin/GetFoodData.py"
+    }).done(function(foodData)
+    {
+      //reformat json results to an array
+      var nutrition = JSON.parse(foodData);
+
+      //fill the td elements with their respective values
+      for(var i = 0; i < foodData.length; i++)
       {
-        //line has matching information
-        if(/**/)
-        {
-          nutritionString = this.responseText;
-          stringsMatch = !stringsMatch;
-        }
-        //go to next line
-        else
-        {
-          //stop reading the database unless there are no entries left
-          //
-          stringsMatch = (/*no more entries to read*/) ? true : false;
-        }
+        $("#nutrinfo"+i).html(nutrition[i]);
       }
-    }
-  };
-  getSQL.open("GET",/*DATABASE+string*/,true).send();
-
-  //parse the line for nutrition information
-  var nutritionArray = nutritionString.split(",");
-
-  //fill the td tags with the nutrition info from the database
-  document.getElementById("Fat").innerHTML = /**/;
-  document.getElementById("Cholesterol").innerHTML = /**/;
-  document.getElementById("Sodium").innerHTML = /**/;
-  document.getElementById("Carbohydrates").innerHTML = /**/;
-  document.getElementById("Fiber").innerHTML = /**/;
-  document.getElementById("Sugar").innerHTML = /**/;
-  document.getElementById("Protein").innerHTML = /**/;
-  document.getElementById("Potassium").innerHTML = /**/;
-  document.getElementById("Iron").innerHTML = /**/;
-  document.getElementById("Calcium").innerHTML = /**/;
-  document.getElementById("VitaminA").innerHTML = /**/;
-  document.getElementById("VitaminB6").innerHTML = /**/;
-  document.getElementById("VitaminB12").innerHTML = /**/;
-  document.getElementById("VitaminC").innerHTML = /**/;
-  document.getElementById("VitaminD").innerHTML = /**/;
-  document.getElementById("VitaminE").innerHTML = /**/;
+    });
 }
