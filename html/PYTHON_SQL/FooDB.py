@@ -110,7 +110,20 @@ def fdcIDnutritionSearch(id):
 #
 
 def closeMatch(searchString):
-    table = "TODO";
+    """ Function submits a search to the database based on searchString"""
+    #create connection and cursor
+    conn = create_connection(DB_NAME());
+    cur = conn.cursor();
+
+    #create SQL Statement
+    sqlStatement = "SELECT foodDescription FROM parsedFood WHERE searchString LIKE ?";
+
+    #execute query
+    cur.execute(sqlStatement,('%'+searchString+'%',));
+    table = cur.fetchmany(50);
+
+    #close connection and return result
+    conn.close();
     return table
 #end closeMatch
 
