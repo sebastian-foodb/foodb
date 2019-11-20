@@ -26,7 +26,7 @@ def JS_Intake():
 
 
 def DB_NAME(): #Clean? no, but it works. Allows for easy modification of accessed DB
-    return "FooDBv2.db3"
+    return "FooDBv3.db3"
 #end DB_NAME()
 
 def create_connection(db):
@@ -101,7 +101,22 @@ def fdcIDbasicSearch(id):
 #end fdcIDbasicSearch
 
 def fdcIDnutritionSearch(id):
-    idSearchResult = "TODO";
+    """ Function submits a search to the database based on FDC_ID, an integer"""
+    #create connection and cursor
+    conn = create_connection(DB_NAME());
+    cur = conn.cursor();
+
+    #create SQL Statement
+    sqlStatement = '''SELECT * FROM nutValues WHERE FDC_ID=? 
+		    UNION
+		    SELECT * FROM nutUnits WHERE FDC_ID=?''';
+
+    #execute query
+    cur.execute(sqlStatement,(id,id));
+    idSearchResult = cur.fetchall();
+
+    #close connection and return result
+    conn.close();
     return idSearchResult
 #end fdcIDnutritionSearch
 
@@ -116,7 +131,7 @@ def closeMatch(searchString):
     cur = conn.cursor();
 
     #create SQL Statement
-    sqlStatement = "SELECT foodDescription FROM parsedFood WHERE searchString LIKE ?";
+    sqlStatement = "SELECT foodDescription,fdcID FROM parsedFood WHERE searchString LIKE ?";
 
     #execute query
     cur.execute(sqlStatement,('%'+searchString+'%',));
