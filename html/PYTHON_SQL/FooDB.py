@@ -142,5 +142,22 @@ def closeMatch(searchString):
     return table
 #end closeMatch
 
+def rand3():
+    """ Selects Three Random Rows"""
+    #create connection and cursor
+    conn = create_connection(DB_NAME());
+    cur = conn.cursor();
+
+    #create SQL Statement
+    sqlStatement = "SELECT foodDescription,fdcID FROM parsedFood ORDER BY random() LIMIT 3";
+
+    #execute query
+    cur.execute(sqlStatement);
+    table = cur.fetchall();
+
+    #close connection and return result
+    conn.close();
+    return table
+#end rand3
 
 #end PythonTest
