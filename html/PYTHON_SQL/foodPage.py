@@ -15,13 +15,15 @@ ID = form.getfirst('ID'); #get value
 ID = int(ID);
 
 dbRet = DB.fdcIDnutritionSearch(ID); #returns tuple of tuples 
+dbRet2 = fdcIDbasicSearch(ID);
 vals = dbRet[0];
 units = dbRet[1];
+name = dbRet2[0][2];
 
 #valDict =  {keys[i]: vals[i] for i in range(0, len(vals))}
 #unitDict = {keys[i]: units[i] for i in range(0, len(units))}
 
-dict = {'values': vals[2:len(vals)],'units': units[2:len(units)]};
+dict = {'foodname': name, 'quantities': vals[2:len(vals)],'units': units[2:len(units)]};
 
 ret = json.dumps(dict);
 
