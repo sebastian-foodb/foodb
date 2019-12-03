@@ -131,10 +131,12 @@ def closeMatch(searchString):
     cur = conn.cursor();
 
     #create SQL Statement
-    sqlStatement = "SELECT foodDescription,fdcID FROM parsedFood WHERE searchString LIKE ?";
+    sqlStatement = """SELECT foodDescription,fdcID FROM parsedFood WHERE searchString LIKE ?
+                    ORDER BY (CASE WHEN searchString = ? THEN 1 WHEN searchString LIKE ? THEN 2 ELSE 3 END)
+                    """;
 
     #execute query
-    cur.execute(sqlStatement,('%'+searchString+'%',));
+    cur.execute(sqlStatement,('%'+searchString+'%',searchString,searchString+'%'));
     table = cur.fetchmany(50);
 
     #close connection and return result
