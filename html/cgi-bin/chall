@@ -1,0 +1,5 @@
+#!/bin/bash
+printf "\nEnter your password to change the permissions.\n"
+sudo chmod 755 /Library/WebServer/CGI-Executables/*.py
+sudo chmod 777 /Library/WebServer/CGI-Executables
+printf "\nPermissions have been successfully changed.\n\n"

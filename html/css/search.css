@@ -1,12 +1,12 @@
 /*Created by Sebastian for FooDB*/
 
 /*created 09/10/19*/
-/*updated 20/10/19*/
+/*updated 02/12/19*/
 
 a
 {
+  color: #005500;
   text-decoration: none;
-  color: #eeffee;
 }
 
 hr
@@ -18,7 +18,7 @@ hr
 {
   position: absolute;
   width: 100%;
-  height: 500%;
+  height: 100%;
   top: 0%;
   left: 0%;
   background-image: linear-gradient(#eeffee,#eecfee);
@@ -41,16 +41,16 @@ hr
   background-image: linear-gradient(#00e700,#00d700);
 }
 
+#header
+{
+  font-size: 27px;
+}
 #logo
 {
   font-size: 54px;
   font-weight: bold;
 }
-#header
-{
-  font-size: 27px;
-}
-#logo,#header
+#header,#logo
 {
   height: auto;
   left: 0%;
@@ -59,6 +59,16 @@ hr
   color: #eeffee;
   text-align: left;
   text-overflow: hidden;
+}
+
+#resultlist
+{
+  font-family: "Helvetica";
+  font-size: 20px;
+  color: #005500;
+  text-overflow: ellipsis;
+  padding-top: 15%;
+  padding-bottom: 5%;
 }
 
 #searchbar

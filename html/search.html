@@ -1,7 +1,7 @@
 <!--Created by Sebastian for FooDB-->
 
 <!--created 09/10/19-->
-<!--updated 30/10/19-->
+<!--updated 03/12/19-->
 
 <!DOCTYPE html>
 
@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/search.css"/>
 </head>
 
-<body onload="addSearchTerms()">
+<body onload="formatSearchAndAccessDatabase()">
   <!--search bar that sticks to the top of the page-->
   <div id="background">
     <div id="banner">
@@ -20,22 +20,13 @@
         <a href="index.html" target="_self"><span id="logo">FooDB </span></a><span id="header"> search results</span>
       </div>
       <div id="searchbar">
-        <form onsubmit="addSearchToURL()">
-          <input id="foodsearch" placeholder="search database" type="text">
+        <form>
+          <input id="foodsearch" name="query" placeholder="search database" type="text">
         </form>
       </div>
     </div>
-  </div>
-
-  <!--search results-->
-  <div>
-    <!---->
-  </div>
-
-  <hr><!--put horizontal rules between results-->
-
-  <div>
-    <!--subsequent divs can be appended through jquery-->
+    <!--elements for search terms get added by server-side python-->
+    <div id="resultlist">Could not find any results.</div>
   </div>
 
   <script type="application/javascript" src="js/jquery-3.4.1.js"></script>

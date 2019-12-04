@@ -1,7 +1,23 @@
 /*Created by Sebastian for FooDB*/
 
 /*created 28/10/19*/
-/*updated 28/10/19*/
+/*updated 03/12/19*/
+
+a
+{
+  color: #005500;
+  text-decoration: none;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1
+{
+  font-family: "Helvetica";
+  font-weight: normal;
+  text-overflow: ellipsis;
+  text-align: center;
+}
 
 .background
 {
@@ -24,6 +40,7 @@
   padding-left: 5vw;
   grid-template-columns: repeat(3,auto);
 }
+
 .explorebox
 {
   background-image: linear-gradient(#eeffee,#eecfee);
@@ -31,18 +48,15 @@
   width: 20vw;
 }
 
-h1
+.foodtitle
 {
-  font-weight: normal;
-}
-h2
-{
-  font-weight: lighter;
-}
-h1,h2
-{
-  font-family: "Helvetica";
   color: #005500;
-  text-overflow: ellipsis;
-  text-align: center;
+}
+
+#exploreheader
+{
+  /* TODO */
+  color: #eeffee;
+  font-weight: bolder;
+  font-size: 96px;
 }

@@ -1,92 +1,94 @@
 <!--Created by Sebastian for FooDB-->
 
 <!--created 15/10/19-->
-<!--updated 28/10/19-->
+<!--updated 03/12/19-->
 
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>FooDB | Loading...</title>
   <link rel="stylesheet" href="css/foodpage.css"/>
 </head>
 
 <body onload="getNutritionFromDatabase()">
-  <!--nutrition shown as css grid filled with numerous 2*1 html tables-->
   <div class="background">
     <div id="centerbox">
-      <h1></h1>
+      <h1 id="propername">Waiting for a response...</h1>
+      <hr>
+      <br>
       <div id="nutritiongrid">
         <table>
           <tr><th>Fat</th></tr>
-          <tr><td id="Fat"></td></tr>
+          <tr><td id="nutrinfo0"></td></tr>
         </table>
         <table>
           <tr><th>Cholesterol</th></tr>
-          <tr><td id="Cholesterol"></td></tr>
+          <tr><td id="nutrinfo1"></td></tr>
         </table>
         <table>
           <tr><th>Sodium</th></tr>
-          <tr><td id="Sodium"></td></tr>
+          <tr><td id="nutrinfo2"></td></tr>
         </table>
         <table>
           <tr><th>Carbohydrates</th></tr>
-          <tr><td id="Carbohydrates"></td></tr>
+          <tr><td id="nutrinfo3"></td></tr>
         </table>
         <table>
           <tr><th>Fiber</th></tr>
-          <tr><td id="Fiber"></td></tr>
+          <tr><td id="nutrinfo4"></td></tr>
         </table>
         <table>
           <tr><th>Sugar</th></tr>
-          <tr><td id="Sugar"></td></tr>
+          <tr><td id="nutrinfo5"></td></tr>
         </table>
         <table>
           <tr><th>Protein</th></tr>
-          <tr><td id="Protein"></td></tr>
+          <tr><td id="nutrinfo6"></td></tr>
         </table>
         <table>
           <tr><th>Potassium</th></tr>
-          <tr><td id="Potassium"></td></tr>
+          <tr><td id="nutrinfo7"></td></tr>
         </table>
         <table>
           <tr><th>Iron</th></tr>
-          <tr><td id="Iron"></td></tr>
+          <tr><td id="nutrinfo8"></td></tr>
         </table>
         <table>
           <tr><th>Calcium</th></tr>
-          <tr><td id="Calcium"></td></tr>
+          <tr><td id="nutrinfo9"></td></tr>
         </table>
         <table>
           <tr><th>Vitamin A</th></tr>
-          <tr><td id="VitaminA"></td></tr>
+          <tr><td id="nutrinfo10"></td></tr>
         </table>
         <table>
           <tr><th>Vitamin B<sub>6</sub></th></tr>
-          <tr><td id="VitaminB6"></td></tr>
+          <tr><td id="nutrinfo11"></td></tr>
         </table>
         <table>
           <tr><th>Vitamin B<sub>12</sub></th></tr>
-          <tr><td id="VitaminB12"></td></tr>
+          <tr><td id="nutrinfo12"></td></tr>
         </table>
         <table>
           <tr><th>Vitamin C</th></tr>
-          <tr><td id="VitaminC"></td></tr>
+          <tr><td id="nutrinfo13"></td></tr>
         </table>
         <table>
           <tr><th>Vitamin D</th></tr>
-          <tr><td id="VitaminD"></td></tr>
+          <tr><td id="nutrinfo14"></td></tr>
         </table>
         <table>
           <tr><th>Vitamin E</th></tr>
-          <tr><td id="VitaminE"></td></tr>
+          <tr><td id="nutrinfo15"></td></tr>
         </table>
       </div>
+      <br><hr>
+    </div>
   </div>
-</div>
 
-<script type="application/javascript" src="js/jquery-3.4.1.js"></script>
-<script type="application/javascript" src="FillPageWithData.js"></script>
+  <script type="application/javascript" src="js/jquery-3.4.1.js"></script>
+  <script type="application/javascript" src="js/FoodPage.js"></script>
 </body>
 </html>

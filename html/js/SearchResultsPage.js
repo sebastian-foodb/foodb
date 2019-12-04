@@ -1,48 +1,38 @@
 //Created by Sebastian for FooDB
 
 //created 19/10/19
-//updated 11/11/19
-
-function addSearchTerms()
-{
-  //OR .replace("?q=","") OR .slice(3)
-  var urlSearch = decodeURI(location.search.split("?q=").pop());
-  document.title = "FooDB | "+urlSearch+" search results";
-  document.getElementById("foodsearch").value = urlSearch;
-  formatSearchAndAccessDatabase();
-}
+//updated 03/12/19
 
 function formatSearchAndAccessDatabase()
 {
+  //alternative syntax: .replace("?q=","") OR .slice(3)
+  var urlSearch = decodeURI(location.search.split("?query=").pop());
+  // document.title = "FooDB | "+urlSearch+" search results";
+  $("title").html("FooDB | "+urlSearch+" search results");
+  document.getElementById("foodsearch").value = urlSearch;
+
   //reformat the submitted search term
-  var searchTermFormatted = document.getElementById("foodsearch").value
+  var searchTermFormatted = urlSearch
   .toLowerCase()
+  .replace(/[0-9]/g,"")
   .replace(/\s/g,"")
   .replace(/[^\w]/g,"")
   .replace(/[_]/g,"");
 
   //connect to the database through a jquery ajax call to python
-  var entriesParsed;
-  var entries=[];
   $.ajax(
     {
       type: "GET",
-      data: searchTermFormatted,
-      url: "cgi-bin/GetRelevantEntries.py"//cgi-bin --> Library/WebServer/CGI-Executables
-    }).done(function(entriesJSON)
+      data: {"query": searchTermFormatted},
+      url: "cgi-bin/st.py"
+    })
+    .done(function(resultElements)
     {
-      //reformat json results to an array
-      entriesParsed = JSON.parse(entriesJSON);
-
-      //fill the search page with relevant entries to search pages
-      for(var i = 0; i < entriesParsed.length; i++)//might be entriesParsed.arrname.length
-      {
-        //make an html element that will link to
-        entries[i] = document.createElement("div").setAttribute("id","searchresult"+i);
-        $("searchresult"+i).html('<a href="foodpage.html?food='+entriesParsed[i]+'" target="_self">'+entriesParsed[i]+'</a>');
-
-        //add a horizontal bar after every search result except the last one
-        $("#searchresult"+i).append((i < entriesParsed.length-1) ? "<hr>" : "");
-      }
+      $("#resultlist").html(resultElements);
+      $("#background").height($("#resultlist").outerHeight(true));
+    })
+    .fail(function(x,s,e)
+    {
+      $("#resultlist").html("Sorry, something went wrong.<br>"+e+".");
     });
 }

@@ -1,7 +1,7 @@
 <!--Created by Sebastian for FooDB-->
 
 <!--created 28/10/19-->
-<!--updated 28/10/19-->
+<!--updated 03/12/19-->
 
 <!DOCTYPE html>
 
@@ -12,22 +12,23 @@
   <link rel="stylesheet" href="css/explore.css"/>
 </head>
 
-<body>
+<body onload="randomThreePages()">
   <div class="background">
+    <h1 id="exploreheader">Explore FooDB</h1>
     <div class="explore">
       <div class="explorebox">
-        <h1 id="title1">Food 1</h1>
+        <h1 class="foodtitle"><a id="title1">Food 1</a></h1>
       </div>
       <div class="explorebox">
-        <h1 id="title2">Food 2</h1>
+        <h1 class="foodtitle"><a id="title2">Food 2</a></h1>
       </div>
       <div class="explorebox">
-        <h1 id="title2">Food 3</h1>
+        <h1 class="foodtitle"><a id="title3">Food 3</a></h1>
       </div>
     </div>
   </div>
 
-  <!--script type="application/javascript" src="js/jquery-3.4.1.js"></script-->
-  <script type="application/javascript" src="js/ChooseRandomPages.js"></script>
+  <script type="application/javascript" src="js/jquery-3.4.1.js"></script>
+  <script type="application/javascript" src="js/Explore.js"></script>
 </body>
 </html>
