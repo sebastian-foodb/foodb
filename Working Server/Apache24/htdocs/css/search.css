@@ -1,0 +1,92 @@
+/*Created by Sebastian for FooDB*/
+
+/*created 09/10/19*/
+/*updated 02/12/19*/
+
+a
+{
+  color: #005500;
+  text-decoration: none;
+}
+
+hr
+{
+  border: 2px solid #005500;
+}
+
+#background
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: linear-gradient(#eeffee,#eecfee);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#banner
+{
+  position: fixed;
+  display: grid;
+  grid: 54px / auto auto;
+  width: 100%;
+  height: 12%;
+  top: 0%;
+  left: 0%;
+  padding: 1% 1%;
+  background-image: linear-gradient(#00e700,#00d700);
+}
+
+#header
+{
+  font-size: 27px;
+}
+#logo
+{
+  font-size: 54px;
+  font-weight: bold;
+}
+#header,#logo
+{
+  height: auto;
+  left: 0%;
+  width: 100%;
+  font-family: "Helvetica";
+  color: #eeffee;
+  text-align: left;
+  text-overflow: hidden;
+}
+
+#resultlist
+{
+  font-family: "Helvetica";
+  font-size: 20px;
+  color: #005500;
+  text-overflow: ellipsis;
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+
+#searchbar
+{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  grid-row: 2/3;
+}
+#searchbar input[type=text]
+{
+  width: 100%;
+  font-family: "Helvetica";
+  font-weight: lighter;
+  font-size: 24px;
+  padding: 1%;
+  text-align: left;
+  color: #005500;
+  background-color: #eeffee;
+  text-overflow: ellipsis;
+}

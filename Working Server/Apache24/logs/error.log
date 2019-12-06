@@ -1,0 +1,753 @@
+[Wed Nov 20 09:39:17.150239 2019] [mpm_winnt:notice] [pid 4224:tid 548] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 09:39:17.151238 2019] [mpm_winnt:notice] [pid 4224:tid 548] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 09:39:17.151238 2019] [core:notice] [pid 4224:tid 548] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 09:39:17.188216 2019] [mpm_winnt:notice] [pid 4224:tid 548] AH00418: Parent: Created child process 15292
+Apache server interrupted...
+019] [mpm_winnt:notice] [pid 15292:tid 652] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 09:39:57.939415 2019] [mpm_winnt:notice] [pid 4224:tid 548] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Nov 20 09:40:27.946602 2019] [mpm_winnt:notice] [pid 4224:tid 548] AH00431: Parent: Forcing termination of child process 15292
+[Wed Nov 20 09:44:12.970709 2019] [mpm_winnt:notice] [pid 3068:tid 128] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 09:44:12.972692 2019] [mpm_winnt:notice] [pid 3068:tid 128] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 09:44:12.972692 2019] [core:notice] [pid 3068:tid 128] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 09:44:13.035908 2019] [mpm_winnt:notice] [pid 3068:tid 128] AH00418: Parent: Created child process 7356
+[Wed Nov 20 09:44:13.550699 2019] [mpm_winnt:notice] [pid 7356:tid 556] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 09:44:47.691568 2019] [mpm_winnt:notice] [pid 3068:tid 128] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Nov 20 09:44:49.693693 2019] [mpm_winnt:notice] [pid 7356:tid 556] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 09:44:49.721899 2019] [mpm_winnt:notice] [pid 3068:tid 128] AH00430: Parent: Child process 7356 exited successfully.
+[Wed Nov 20 09:50:41.692334 2019] [mpm_winnt:notice] [pid 16924:tid 636] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 09:50:41.694332 2019] [mpm_winnt:notice] [pid 16924:tid 636] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 09:50:41.694332 2019] [core:notice] [pid 16924:tid 636] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 09:50:41.727332 2019] [mpm_winnt:notice] [pid 16924:tid 636] AH00418: Parent: Created child process 2772
+[Wed Nov 20 09:50:42.396024 2019] [mpm_winnt:notice] [pid 2772:tid 4] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 09:50:58.316568 2019] [cgi:error] [pid 2772:tid 1076] (OS 2)The system cannot find the file specified.  : [client ::1:50547] couldn't create child process: 720002: form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 09:50:58.316568 2019] [cgi:error] [pid 2772:tid 1076] (OS 2)The system cannot find the file specified.  : [client ::1:50547] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:01:46.790561 2019] [cgi:error] [pid 2772:tid 1068] (OS 2)The system cannot find the file specified.  : [client ::1:50993] couldn't create child process: 720002: form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:01:46.790561 2019] [cgi:error] [pid 2772:tid 1068] (OS 2)The system cannot find the file specified.  : [client ::1:50993] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:11:48.459055 2019] [mpm_winnt:notice] [pid 16924:tid 636] AH00424: Parent: Received restart signal -- Restarting the server.
+AH00526: Syntax error on line 390 of C:/Apache24/conf/httpd.conf:
+Invalid command 'Order', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Nov 20 10:11:50.460667 2019] [mpm_winnt:notice] [pid 2772:tid 4] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 10:14:07.502543 2019] [core:warn] [pid 1904:tid 528] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 20 10:14:07.509539 2019] [mpm_winnt:notice] [pid 1904:tid 528] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 10:14:07.510538 2019] [mpm_winnt:notice] [pid 1904:tid 528] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 10:14:07.510538 2019] [core:notice] [pid 1904:tid 528] AH00094: Command line: 'httpd.exe -d C:/Apache24'
+[Wed Nov 20 10:14:07.529527 2019] [mpm_winnt:notice] [pid 1904:tid 528] AH00418: Parent: Created child process 4068
+Apache server interrupted...
+019] [mpm_winnt:notice] [pid 4068:tid 588] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 10:14:50.087778 2019] [cgi:error] [pid 4068:tid 1096] (OS 2)The system cannot find the file specified.  : [client ::1:51168] couldn't create child process: 720002: form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:14:50.088777 2019] [cgi:error] [pid 4068:tid 1096] (OS 2)The system cannot find the file specified.  : [client ::1:51168] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:14:57.011579 2019] [mpm_winnt:notice] [pid 1904:tid 528] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Wed Nov 20 10:14:59.013035 2019] [mpm_winnt:notice] [pid 4068:tid 588] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 10:14:59.043963 2019] [mpm_winnt:notice] [pid 1904:tid 528] AH00430: Parent: Child process 4068 exited successfully.
+[Wed Nov 20 10:31:41.864694 2019] [mpm_winnt:notice] [pid 15852:tid 628] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 10:31:41.865694 2019] [mpm_winnt:notice] [pid 15852:tid 628] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 10:31:41.865694 2019] [core:notice] [pid 15852:tid 628] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 10:31:41.934651 2019] [mpm_winnt:notice] [pid 15852:tid 628] AH00418: Parent: Created child process 13884
+[Wed Nov 20 10:31:44.366094 2019] [mpm_winnt:notice] [pid 13884:tid 536] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 10:32:03.401925 2019] [authz_core:error] [pid 13884:tid 1084] [client ::1:51668] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:34:09.934036 2019] [mpm_winnt:notice] [pid 15852:tid 628] AH00424: Parent: Received restart signal -- Restarting the server.
+AH00526: Syntax error on line 391 of C:/Apache24/conf/httpd.conf:
+Invalid command 'order', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Nov 20 10:34:11.936750 2019] [mpm_winnt:notice] [pid 13884:tid 536] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 10:36:00.565292 2019] [core:warn] [pid 13560:tid 632] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 20 10:36:00.574292 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 10:36:00.574292 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 10:36:00.574292 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 10:36:00.623938 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 16896
+[Wed Nov 20 10:36:01.470297 2019] [mpm_winnt:notice] [pid 16896:tid 672] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 10:36:22.441312 2019] [authz_core:error] [pid 16896:tid 1076] [client ::1:51689] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:39:38.143310 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 10:39:38.203279 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 10:39:38.203279 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 10:39:38.203279 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 10:39:38.242521 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 14928
+[Wed Nov 20 10:39:39.145180 2019] [mpm_winnt:notice] [pid 14928:tid 560] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 10:39:40.145371 2019] [mpm_winnt:notice] [pid 16896:tid 672] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 10:39:52.183602 2019] [authz_core:error] [pid 14928:tid 1116] [client ::1:51702] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:42:27.507866 2019] [authz_core:error] [pid 14928:tid 1116] [client ::1:51713] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/printenv.pl
+[Wed Nov 20 10:48:32.353756 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 10:48:32.417717 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 10:48:32.417717 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 10:48:32.417717 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 10:48:32.454695 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 10984
+[Wed Nov 20 10:48:33.354822 2019] [mpm_winnt:notice] [pid 10984:tid 596] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 10:48:34.355694 2019] [mpm_winnt:notice] [pid 14928:tid 560] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 10:48:39.287883 2019] [cgi:error] [pid 10984:tid 1116] [client ::1:51728] AH02812: attempt to invoke directory as script: C:/Apache24/cgi-bin/
+[Wed Nov 20 10:48:58.772988 2019] [cgi:error] [pid 10984:tid 1112] (OS 2)The system cannot find the file specified.  : [client ::1:51729] couldn't create child process: 720002: form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:48:58.772988 2019] [cgi:error] [pid 10984:tid 1112] (OS 2)The system cannot find the file specified.  : [client ::1:51729] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:50:09.774170 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 10:50:09.831599 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 10:50:09.831599 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 10:50:09.831599 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 10:50:09.857905 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 14360
+[Wed Nov 20 10:50:10.775026 2019] [mpm_winnt:notice] [pid 14360:tid 556] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 10:50:11.775279 2019] [mpm_winnt:notice] [pid 10984:tid 596] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 10:50:24.933471 2019] [cgi:error] [pid 14360:tid 1116] (OS 2)The system cannot find the file specified.  : [client ::1:51737] couldn't create child process: 720002: form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:50:24.933471 2019] [cgi:error] [pid 14360:tid 1116] (OS 2)The system cannot find the file specified.  : [client ::1:51737] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:51:04.434417 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 10:51:04.487434 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 10:51:04.487434 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 10:51:04.487434 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 10:51:04.531415 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 11796
+[Wed Nov 20 10:51:05.443410 2019] [mpm_winnt:notice] [pid 11796:tid 556] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 10:51:06.461802 2019] [mpm_winnt:notice] [pid 14360:tid 556] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 10:51:20.519538 2019] [authz_core:error] [pid 11796:tid 1076] [client ::1:51738] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:53:23.902615 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 10:53:23.957341 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 10:53:23.957341 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 10:53:23.957341 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 10:53:23.990440 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 800
+[Wed Nov 20 10:53:24.904598 2019] [mpm_winnt:notice] [pid 800:tid 572] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 10:53:25.904851 2019] [mpm_winnt:notice] [pid 11796:tid 556] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 10:53:36.426301 2019] [authz_core:error] [pid 800:tid 1116] [client ::1:51747] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:53:49.982043 2019] [authz_core:error] [pid 800:tid 1116] [client ::1:51748] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 10:54:58.326981 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 10:54:58.396961 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 10:54:58.396961 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 10:54:58.396961 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 10:54:58.432164 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 3792
+[Wed Nov 20 10:54:59.327381 2019] [mpm_winnt:notice] [pid 3792:tid 556] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 10:55:00.327603 2019] [mpm_winnt:notice] [pid 800:tid 572] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 10:55:11.212807 2019] [authz_core:error] [pid 3792:tid 1116] [client ::1:51766] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 11:05:04.145851 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 11:05:04.202812 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 11:05:04.202812 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 11:05:04.202812 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 11:05:04.268825 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 1900
+[Wed Nov 20 11:05:05.146979 2019] [mpm_winnt:notice] [pid 1900:tid 576] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 11:05:06.147757 2019] [mpm_winnt:notice] [pid 3792:tid 556] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 11:05:14.967082 2019] [authz_core:error] [pid 1900:tid 1116] [client ::1:51793] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 11:09:46.983294 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 11:09:47.090899 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 11:09:47.090899 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 11:09:47.090899 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 11:09:47.129736 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 7404
+[Wed Nov 20 11:09:47.984563 2019] [mpm_winnt:notice] [pid 7404:tid 588] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 11:09:48.990004 2019] [mpm_winnt:notice] [pid 1900:tid 576] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 11:09:52.959548 2019] [authz_core:error] [pid 7404:tid 1076] [client ::1:51805] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/
+[Wed Nov 20 11:10:16.689736 2019] [authz_core:error] [pid 7404:tid 1076] [client ::1:51806] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/
+[Wed Nov 20 11:14:51.993031 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 11:14:52.080117 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 11:14:52.080117 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 11:14:52.080117 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 11:14:52.120092 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 3352
+[Wed Nov 20 11:14:52.994350 2019] [mpm_winnt:notice] [pid 3352:tid 548] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 11:14:53.994609 2019] [mpm_winnt:notice] [pid 7404:tid 588] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 11:14:57.652894 2019] [authz_core:error] [pid 3352:tid 1116] [client ::1:52019] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/
+[Wed Nov 20 11:15:07.533607 2019] [authz_core:error] [pid 3352:tid 1116] [client ::1:52020] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 11:17:48.197529 2019] [authz_core:error] [pid 3352:tid 1116] [client ::1:52034] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/form.py
+[Wed Nov 20 11:18:02.337857 2019] [authz_core:error] [pid 3352:tid 1116] [client ::1:52035] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 11:18:06.483718 2019] [authz_core:error] [pid 3352:tid 1116] [client ::1:52035] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/form.py
+[Wed Nov 20 11:18:10.074920 2019] [authz_core:error] [pid 3352:tid 1116] [client ::1:52035] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/form.py
+[Wed Nov 20 11:18:13.806475 2019] [authz_core:error] [pid 3352:tid 1116] [client ::1:52035] AH01630: client denied by server configuration: C:/Apache24/cgi-bin/
+[Wed Nov 20 11:22:19.371506 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 11:22:19.566479 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 11:22:19.566479 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 11:22:19.566479 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 11:22:19.590996 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 9468
+[Wed Nov 20 11:22:20.371766 2019] [mpm_winnt:notice] [pid 9468:tid 576] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 11:22:21.372050 2019] [mpm_winnt:notice] [pid 3352:tid 548] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 11:22:25.140177 2019] [cgi:error] [pid 9468:tid 1116] [client ::1:52048] AH02812: attempt to invoke directory as script: C:/Apache24/cgi-bin/
+[Wed Nov 20 11:22:59.454068 2019] [cgi:error] [pid 9468:tid 1116] (OS 2)The system cannot find the file specified.  : [client ::1:52049] couldn't create child process: 720002: form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 11:22:59.454068 2019] [cgi:error] [pid 9468:tid 1116] (OS 2)The system cannot find the file specified.  : [client ::1:52049] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 11:25:34.010839 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 11:25:34.076797 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 11:25:34.076797 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 11:25:34.076797 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 11:25:34.108779 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 12100
+[Wed Nov 20 11:25:35.012117 2019] [mpm_winnt:notice] [pid 12100:tid 560] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 11:25:36.013194 2019] [mpm_winnt:notice] [pid 9468:tid 576] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 11:25:39.002194 2019] [cgi:error] [pid 12100:tid 1116] [client ::1:52068] AH02811: script not found or unable to stat: C:/Apache24/cgi-binform.py
+[Wed Nov 20 11:25:43.131731 2019] [cgi:error] [pid 12100:tid 1116] [client ::1:52068] AH02812: attempt to invoke directory as script: C:/Apache24/cgi-bin
+[Wed Nov 20 11:26:01.779554 2019] [cgi:error] [pid 12100:tid 1116] [client ::1:52069] AH02811: script not found or unable to stat: C:/Apache24/cgi-binform.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 11:27:06.928354 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 11:27:07.009327 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 11:27:07.009327 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 11:27:07.009327 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 11:27:07.050934 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 15388
+[Wed Nov 20 11:27:07.928950 2019] [mpm_winnt:notice] [pid 15388:tid 564] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 11:27:08.929945 2019] [mpm_winnt:notice] [pid 12100:tid 560] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 11:27:11.421305 2019] [cgi:error] [pid 15388:tid 1076] (OS 2)The system cannot find the file specified.  : [client ::1:52072] couldn't create child process: 720002: form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 11:27:11.422291 2019] [cgi:error] [pid 15388:tid 1076] (OS 2)The system cannot find the file specified.  : [client ::1:52072] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/form.py, referer: http://localhost:85/CGI_test.html
+[Wed Nov 20 11:27:36.111242 2019] [win32:error] [pid 15388:tid 1076] [client ::1:52079] AH02102: C:/Apache24/cgi-bin/printenv.pl is not executable; ensure interpreted scripts have "#!" or "'!" first line
+[Wed Nov 20 11:27:36.111242 2019] [cgi:error] [pid 15388:tid 1076] (9)Bad file descriptor: [client ::1:52079] AH01222: don't know how to spawn child process: C:/Apache24/cgi-bin/printenv.pl
+[Wed Nov 20 11:27:39.808789 2019] [cgi:error] [pid 15388:tid 1076] [client ::1:52080] AH02812: attempt to invoke directory as script: C:/Apache24/cgi-bin/
+[Wed Nov 20 11:31:53.075421 2019] [cgi:error] [pid 15388:tid 1076] (OS 2)The system cannot find the file specified.  : [client ::1:52222] couldn't create child process: 720002: form.py
+[Wed Nov 20 11:31:53.075421 2019] [cgi:error] [pid 15388:tid 1076] (OS 2)The system cannot find the file specified.  : [client ::1:52222] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/form.py
+[Wed Nov 20 11:42:57.349793 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 11:42:57.410878 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 11:42:57.410878 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 11:42:57.410878 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 11:42:57.436598 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 10344
+[Wed Nov 20 11:42:58.350813 2019] [mpm_winnt:notice] [pid 10344:tid 564] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 11:42:59.352842 2019] [mpm_winnt:notice] [pid 15388:tid 564] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 11:44:11.867014 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 11:44:11.969999 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 11:44:11.969999 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 11:44:11.971000 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 11:44:12.007797 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 12056
+[Wed Nov 20 11:44:12.868092 2019] [mpm_winnt:notice] [pid 12056:tid 148] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 11:44:13.868532 2019] [mpm_winnt:notice] [pid 10344:tid 564] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 11:53:49.999623 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 11:53:50.053590 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 11:53:50.053590 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 11:53:50.053590 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 11:53:50.082805 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 11668
+[Wed Nov 20 11:53:51.000116 2019] [mpm_winnt:notice] [pid 11668:tid 564] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 11:53:52.001628 2019] [mpm_winnt:notice] [pid 12056:tid 148] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 11:55:26.733595 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 11:55:26.788561 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 11:55:26.788561 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 11:55:26.788561 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 11:55:26.821541 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 10336
+[Wed Nov 20 11:55:27.734476 2019] [mpm_winnt:notice] [pid 10336:tid 552] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 11:55:28.734791 2019] [mpm_winnt:notice] [pid 11668:tid 564] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 12:19:01.028926 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Nov 20 12:19:01.084892 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 12:19:01.084892 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 12:19:01.084892 2019] [core:notice] [pid 13560:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 12:19:01.129199 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00418: Parent: Created child process 12484
+[Wed Nov 20 12:19:02.030316 2019] [mpm_winnt:notice] [pid 12484:tid 580] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 20 12:19:03.031158 2019] [mpm_winnt:notice] [pid 10336:tid 552] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 12:27:10.909212 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Nov 20 12:27:12.910528 2019] [mpm_winnt:notice] [pid 12484:tid 580] AH00364: Child: All worker threads have exited.
+[Wed Nov 20 12:27:12.932514 2019] [mpm_winnt:notice] [pid 13560:tid 632] AH00430: Parent: Child process 12484 exited successfully.
+[Wed Nov 20 15:00:05.992082 2019] [mpm_winnt:notice] [pid 10848:tid 640] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Nov 20 15:00:06.029571 2019] [mpm_winnt:notice] [pid 10848:tid 640] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Nov 20 15:00:06.029571 2019] [core:notice] [pid 10848:tid 640] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Nov 20 15:00:06.143354 2019] [mpm_winnt:notice] [pid 10848:tid 640] AH00418: Parent: Created child process 17680
+[Wed Nov 20 15:00:06.725893 2019] [mpm_winnt:notice] [pid 17680:tid 160] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 21 09:05:11.742608 2019] [mpm_winnt:notice] [pid 10848:tid 640] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 21 09:05:13.745095 2019] [mpm_winnt:notice] [pid 17680:tid 160] AH00364: Child: All worker threads have exited.
+[Thu Nov 21 09:05:13.804053 2019] [mpm_winnt:notice] [pid 10848:tid 640] AH00430: Parent: Child process 17680 exited successfully.
+[Fri Nov 22 13:18:51.100692 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 13:18:51.101691 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 13:18:51.101691 2019] [core:notice] [pid 23700:tid 684] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 13:18:51.104690 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00418: Parent: Created child process 17724
+[Fri Nov 22 13:18:51.701845 2019] [mpm_winnt:notice] [pid 17724:tid 612] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 13:19:41.110784 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 13:19:41.169833 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 13:19:41.170831 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 13:19:41.170831 2019] [core:notice] [pid 23700:tid 684] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 13:19:41.176835 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00418: Parent: Created child process 19736
+[Fri Nov 22 13:19:42.111925 2019] [mpm_winnt:notice] [pid 19736:tid 568] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 13:19:45.944992 2019] [mpm_winnt:notice] [pid 17724:tid 612] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 13:29:28.516225 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 13:29:29.273526 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 13:29:29.273526 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 13:29:29.273526 2019] [core:notice] [pid 23700:tid 684] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 13:29:29.296218 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00418: Parent: Created child process 17368
+[Fri Nov 22 13:29:30.035072 2019] [mpm_winnt:notice] [pid 17368:tid 564] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 13:29:30.518133 2019] [mpm_winnt:notice] [pid 19736:tid 568] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 13:30:14.184885 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 13:30:14.246869 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 13:30:14.246869 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 13:30:14.246869 2019] [core:notice] [pid 23700:tid 684] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 13:30:14.255865 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00418: Parent: Created child process 21308
+[Fri Nov 22 13:30:15.186114 2019] [mpm_winnt:notice] [pid 21308:tid 524] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 13:30:16.186349 2019] [mpm_winnt:notice] [pid 17368:tid 564] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 13:30:41.574075 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 13:30:41.656024 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 13:30:41.656024 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 13:30:41.656024 2019] [core:notice] [pid 23700:tid 684] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 13:30:41.659022 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00418: Parent: Created child process 23844
+[Fri Nov 22 13:30:42.575750 2019] [mpm_winnt:notice] [pid 23844:tid 564] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 13:30:43.576583 2019] [mpm_winnt:notice] [pid 21308:tid 524] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 13:31:49.718680 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 13:31:49.768813 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 13:31:49.768813 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 13:31:49.768813 2019] [core:notice] [pid 23700:tid 684] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 13:31:49.772058 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00418: Parent: Created child process 744
+[Fri Nov 22 13:31:50.719837 2019] [mpm_winnt:notice] [pid 744:tid 4] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 13:31:51.720159 2019] [mpm_winnt:notice] [pid 23844:tid 564] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 13:32:25.786208 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 13:32:25.844242 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 13:32:25.844242 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 13:32:25.844242 2019] [core:notice] [pid 23700:tid 684] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 13:32:25.846953 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00418: Parent: Created child process 11956
+[Fri Nov 22 13:32:26.787284 2019] [mpm_winnt:notice] [pid 11956:tid 180] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 13:32:27.787513 2019] [mpm_winnt:notice] [pid 744:tid 4] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 13:39:00.270047 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 13:39:00.364912 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 13:39:00.364912 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 13:39:00.364912 2019] [core:notice] [pid 23700:tid 684] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 13:39:00.367911 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00418: Parent: Created child process 17040
+[Fri Nov 22 13:39:01.271297 2019] [mpm_winnt:notice] [pid 17040:tid 584] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 13:39:02.271651 2019] [mpm_winnt:notice] [pid 11956:tid 180] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 13:44:09.854450 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Nov 22 13:44:11.860264 2019] [mpm_winnt:notice] [pid 17040:tid 584] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 13:44:11.890242 2019] [mpm_winnt:notice] [pid 23700:tid 684] AH00430: Parent: Child process 17040 exited successfully.
+[Fri Nov 22 15:06:56.577071 2019] [mpm_winnt:notice] [pid 23616:tid 660] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:06:56.579071 2019] [mpm_winnt:notice] [pid 23616:tid 660] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:06:56.579071 2019] [core:notice] [pid 23616:tid 660] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:06:56.582068 2019] [mpm_winnt:notice] [pid 23616:tid 660] AH00418: Parent: Created child process 20656
+[Fri Nov 22 15:06:57.465783 2019] [mpm_winnt:notice] [pid 20656:tid 128] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:41:51.586311 2019] [mpm_winnt:notice] [pid 23616:tid 660] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:41:51.640320 2019] [mpm_winnt:notice] [pid 23616:tid 660] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:41:51.640320 2019] [mpm_winnt:notice] [pid 23616:tid 660] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:41:51.640320 2019] [core:notice] [pid 23616:tid 660] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:41:51.643318 2019] [mpm_winnt:notice] [pid 23616:tid 660] AH00418: Parent: Created child process 8948
+[Fri Nov 22 15:41:52.589211 2019] [mpm_winnt:notice] [pid 8948:tid 528] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:41:53.589917 2019] [mpm_winnt:notice] [pid 20656:tid 128] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:42:02.987864 2019] [cgi:error] [pid 8948:tid 1116] [client ::1:59716] AH02809: Options ExecCGI is off in this directory: C:/Apache24/htdocs/form.py, referer: http://localhost:85/test.html
+[Fri Nov 22 15:42:52.897813 2019] [mpm_winnt:notice] [pid 23616:tid 660] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:42:52.959781 2019] [mpm_winnt:notice] [pid 23616:tid 660] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:42:52.959781 2019] [mpm_winnt:notice] [pid 23616:tid 660] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:42:52.959781 2019] [core:notice] [pid 23616:tid 660] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:42:52.968772 2019] [mpm_winnt:notice] [pid 23616:tid 660] AH00418: Parent: Created child process 13836
+[Fri Nov 22 15:42:53.898819 2019] [mpm_winnt:notice] [pid 13836:tid 712] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:42:56.718950 2019] [mpm_winnt:notice] [pid 8948:tid 528] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:43:05.715854 2019] [cgi:error] [pid 13836:tid 1076] [client ::1:59729] AH02809: Options ExecCGI is off in this directory: C:/Apache24/htdocs/form.py, referer: http://localhost:85/test.html
+[Fri Nov 22 15:43:29.091638 2019] [mpm_winnt:notice] [pid 23616:tid 660] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Nov 22 15:43:31.093296 2019] [mpm_winnt:notice] [pid 13836:tid 712] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:43:31.119462 2019] [mpm_winnt:notice] [pid 23616:tid 660] AH00430: Parent: Child process 13836 exited successfully.
+[Fri Nov 22 15:43:33.909403 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:43:33.911380 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:43:33.912402 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:43:33.920199 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 12256
+[Fri Nov 22 15:43:34.442011 2019] [mpm_winnt:notice] [pid 12256:tid 128] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:45:51.235285 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:45:51.295249 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:45:51.295249 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:45:51.295249 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:45:51.304267 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 6012
+[Fri Nov 22 15:45:52.236275 2019] [mpm_winnt:notice] [pid 6012:tid 548] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:45:53.236535 2019] [mpm_winnt:notice] [pid 12256:tid 128] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:46:52.912264 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:46:52.976474 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:46:52.976474 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:46:52.976474 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:46:52.985467 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 17588
+[Fri Nov 22 15:46:53.913320 2019] [mpm_winnt:notice] [pid 17588:tid 568] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:46:54.913968 2019] [mpm_winnt:notice] [pid 6012:tid 548] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:47:58.670048 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:47:58.747346 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:47:58.747346 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:47:58.748345 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:47:58.756985 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 19680
+[Fri Nov 22 15:47:59.672084 2019] [mpm_winnt:notice] [pid 19680:tid 564] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:48:00.672245 2019] [mpm_winnt:notice] [pid 17588:tid 568] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:48:46.868329 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:48:46.934290 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:48:46.934290 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:48:46.934290 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:48:46.936290 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 24920
+[Fri Nov 22 15:48:47.870318 2019] [mpm_winnt:notice] [pid 24920:tid 584] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:48:48.870723 2019] [mpm_winnt:notice] [pid 19680:tid 564] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:49:39.792176 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:49:39.852423 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:49:39.852423 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:49:39.852423 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:49:39.855420 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 12808
+[Fri Nov 22 15:49:40.795242 2019] [mpm_winnt:notice] [pid 12808:tid 584] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:49:41.795994 2019] [mpm_winnt:notice] [pid 24920:tid 584] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:50:37.235031 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:50:37.293997 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:50:37.293997 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:50:37.293997 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:50:37.296994 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 19344
+[Fri Nov 22 15:50:38.236335 2019] [mpm_winnt:notice] [pid 19344:tid 560] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:50:39.237346 2019] [mpm_winnt:notice] [pid 12808:tid 584] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:52:46.865542 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:52:46.928058 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:52:46.928058 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:52:46.929058 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:52:46.937041 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 19072
+[Fri Nov 22 15:52:47.867262 2019] [mpm_winnt:notice] [pid 19072:tid 560] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:52:48.867685 2019] [mpm_winnt:notice] [pid 19344:tid 560] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:54:22.968601 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:54:23.132983 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:54:23.132983 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:54:23.132983 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:54:23.135980 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 7472
+[Fri Nov 22 15:54:23.969922 2019] [mpm_winnt:notice] [pid 7472:tid 564] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:54:24.970241 2019] [mpm_winnt:notice] [pid 19072:tid 560] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:54:28.446413 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:54:28.506856 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:54:28.506856 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:54:28.506856 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:54:28.515844 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 17744
+[Fri Nov 22 15:54:29.448189 2019] [mpm_winnt:notice] [pid 17744:tid 136] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:54:30.465726 2019] [mpm_winnt:notice] [pid 7472:tid 564] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:58:19.196208 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:58:19.280156 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:58:19.280156 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:58:19.280156 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:58:19.286152 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 24484
+[Fri Nov 22 15:58:20.197386 2019] [mpm_winnt:notice] [pid 24484:tid 528] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:58:21.198245 2019] [mpm_winnt:notice] [pid 17744:tid 136] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:59:08.827128 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:59:08.946337 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:59:08.946337 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:59:08.946337 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:59:08.963318 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 18620
+[Fri Nov 22 15:59:09.974706 2019] [mpm_winnt:notice] [pid 18620:tid 672] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:59:10.829142 2019] [mpm_winnt:notice] [pid 24484:tid 528] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 15:59:46.449601 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 15:59:46.516563 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 15:59:46.517564 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 15:59:46.517564 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 15:59:46.528553 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 18712
+[Fri Nov 22 15:59:47.449817 2019] [mpm_winnt:notice] [pid 18712:tid 128] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 15:59:48.451425 2019] [mpm_winnt:notice] [pid 18620:tid 672] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:01:36.382165 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:01:36.449611 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:01:36.449611 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:01:36.449611 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:01:36.453609 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 8668
+[Fri Nov 22 16:01:37.384001 2019] [mpm_winnt:notice] [pid 8668:tid 564] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:01:38.384600 2019] [mpm_winnt:notice] [pid 18712:tid 128] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:05:18.348820 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:05:18.410851 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:05:18.410851 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:05:18.410851 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:05:18.413205 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 13236
+[Fri Nov 22 16:05:19.350122 2019] [mpm_winnt:notice] [pid 13236:tid 576] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:05:20.350532 2019] [mpm_winnt:notice] [pid 8668:tid 564] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:06:30.105808 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:06:30.157775 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:06:30.157775 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:06:30.157775 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:06:30.161773 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 7248
+[Fri Nov 22 16:06:31.106756 2019] [mpm_winnt:notice] [pid 7248:tid 564] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:06:32.107917 2019] [mpm_winnt:notice] [pid 13236:tid 576] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:08:25.274808 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:08:25.340769 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:08:25.340769 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:08:25.340769 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:08:25.343767 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 18440
+[Fri Nov 22 16:08:26.279139 2019] [mpm_winnt:notice] [pid 18440:tid 588] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:08:27.281391 2019] [mpm_winnt:notice] [pid 7248:tid 564] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:09:02.060761 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:09:02.111472 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:09:02.111472 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:09:02.111472 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:09:02.114470 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 19700
+[Fri Nov 22 16:09:03.062384 2019] [mpm_winnt:notice] [pid 19700:tid 580] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:09:04.063221 2019] [mpm_winnt:notice] [pid 18440:tid 588] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:16:21.720091 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:16:21.818499 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:16:21.818499 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:16:21.818499 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:16:21.827497 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 2980
+[Fri Nov 22 16:16:22.720749 2019] [mpm_winnt:notice] [pid 2980:tid 576] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:16:23.721335 2019] [mpm_winnt:notice] [pid 19700:tid 580] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:18:49.173540 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:18:49.296472 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:18:49.296472 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:18:49.297472 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:18:49.305467 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 24172
+[Fri Nov 22 16:18:50.174387 2019] [mpm_winnt:notice] [pid 24172:tid 572] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:18:51.175441 2019] [mpm_winnt:notice] [pid 2980:tid 576] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:19:32.577496 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:19:32.640457 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:19:32.640457 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:19:32.641458 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:19:32.643457 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 6904
+[Fri Nov 22 16:19:33.582927 2019] [mpm_winnt:notice] [pid 6904:tid 136] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:19:34.583880 2019] [mpm_winnt:notice] [pid 24172:tid 572] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:21:17.009948 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:21:17.120097 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:21:17.120097 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:21:17.120097 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:21:17.125087 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 24808
+[Fri Nov 22 16:21:18.010406 2019] [mpm_winnt:notice] [pid 24808:tid 564] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:21:19.013214 2019] [mpm_winnt:notice] [pid 6904:tid 136] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:21:40.131614 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:21:40.187597 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:21:40.187597 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:21:40.187597 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:21:40.190594 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 3352
+[Fri Nov 22 16:21:41.132339 2019] [mpm_winnt:notice] [pid 3352:tid 600] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:21:42.132667 2019] [mpm_winnt:notice] [pid 24808:tid 564] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:22:37.234071 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:22:37.331509 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:22:37.331509 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:22:37.331509 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:22:37.334014 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 19244
+[Fri Nov 22 16:22:38.235080 2019] [mpm_winnt:notice] [pid 19244:tid 520] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:22:39.235468 2019] [mpm_winnt:notice] [pid 3352:tid 600] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:48:23.150631 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:48:23.207857 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:48:23.207857 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:48:23.207857 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:48:23.216859 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 11520
+[Fri Nov 22 16:48:24.151643 2019] [mpm_winnt:notice] [pid 11520:tid 508] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:48:25.158612 2019] [mpm_winnt:notice] [pid 19244:tid 520] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:50:59.624663 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:50:59.678704 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:50:59.678704 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:50:59.678704 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:50:59.684491 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 15960
+[Fri Nov 22 16:51:00.626613 2019] [mpm_winnt:notice] [pid 15960:tid 532] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:51:01.626842 2019] [mpm_winnt:notice] [pid 11520:tid 508] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 16:53:03.811756 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 16:53:03.879042 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 16:53:03.879042 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 16:53:03.879042 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 16:53:03.888223 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 19988
+[Fri Nov 22 16:53:04.812802 2019] [mpm_winnt:notice] [pid 19988:tid 616] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 16:53:06.716211 2019] [mpm_winnt:notice] [pid 15960:tid 532] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 17:10:34.011218 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Nov 22 17:10:34.095166 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Nov 22 17:10:34.095166 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Nov 22 17:10:34.095166 2019] [core:notice] [pid 24340:tid 668] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Nov 22 17:10:34.099165 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00418: Parent: Created child process 10112
+[Fri Nov 22 17:10:35.012605 2019] [mpm_winnt:notice] [pid 10112:tid 152] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 22 17:10:36.012995 2019] [mpm_winnt:notice] [pid 19988:tid 616] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 17:13:44.987024 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Nov 22 17:13:46.987553 2019] [mpm_winnt:notice] [pid 10112:tid 152] AH00364: Child: All worker threads have exited.
+[Fri Nov 22 17:13:47.014501 2019] [mpm_winnt:notice] [pid 24340:tid 668] AH00430: Parent: Child process 10112 exited successfully.
+[Mon Nov 25 16:42:23.933270 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Nov 25 16:42:23.955731 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Nov 25 16:42:23.955731 2019] [core:notice] [pid 18420:tid 648] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 25 16:42:23.957633 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00418: Parent: Created child process 22652
+[Mon Nov 25 16:42:24.460431 2019] [mpm_winnt:notice] [pid 22652:tid 580] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 25 16:47:18.843093 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Nov 25 16:47:18.907100 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Nov 25 16:47:18.907100 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Nov 25 16:47:18.907100 2019] [core:notice] [pid 18420:tid 648] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 25 16:47:18.913098 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00418: Parent: Created child process 12856
+[Mon Nov 25 16:47:19.844167 2019] [mpm_winnt:notice] [pid 12856:tid 632] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 25 16:47:20.845639 2019] [mpm_winnt:notice] [pid 22652:tid 580] AH00364: Child: All worker threads have exited.
+[Mon Nov 25 16:49:00.483877 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Nov 25 16:49:00.536516 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Nov 25 16:49:00.536516 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Nov 25 16:49:00.536516 2019] [core:notice] [pid 18420:tid 648] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 25 16:49:00.545508 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00418: Parent: Created child process 19160
+[Mon Nov 25 16:49:01.485667 2019] [mpm_winnt:notice] [pid 19160:tid 568] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 25 16:49:02.486158 2019] [mpm_winnt:notice] [pid 12856:tid 632] AH00364: Child: All worker threads have exited.
+[Mon Nov 25 16:52:03.715400 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Nov 25 16:52:03.816399 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Nov 25 16:52:03.816399 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Nov 25 16:52:03.816399 2019] [core:notice] [pid 18420:tid 648] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 25 16:52:03.819397 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00418: Parent: Created child process 8668
+[Mon Nov 25 16:52:04.716486 2019] [mpm_winnt:notice] [pid 8668:tid 552] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 25 16:52:05.716839 2019] [mpm_winnt:notice] [pid 19160:tid 568] AH00364: Child: All worker threads have exited.
+[Mon Nov 25 16:56:01.714573 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Nov 25 16:56:01.831092 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Nov 25 16:56:01.832092 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Nov 25 16:56:01.832092 2019] [core:notice] [pid 18420:tid 648] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 25 16:56:01.841905 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00418: Parent: Created child process 21872
+[Mon Nov 25 16:56:02.715589 2019] [mpm_winnt:notice] [pid 21872:tid 540] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 25 16:56:03.721567 2019] [mpm_winnt:notice] [pid 8668:tid 552] AH00364: Child: All worker threads have exited.
+[Mon Nov 25 16:57:05.843800 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Nov 25 16:57:06.058573 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Nov 25 16:57:06.059573 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Nov 25 16:57:06.059573 2019] [core:notice] [pid 18420:tid 648] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 25 16:57:06.069568 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00418: Parent: Created child process 24604
+[Mon Nov 25 16:57:06.845193 2019] [mpm_winnt:notice] [pid 24604:tid 524] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 25 16:57:09.755988 2019] [mpm_winnt:notice] [pid 21872:tid 540] AH00364: Child: All worker threads have exited.
+[Mon Nov 25 16:58:48.962994 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Nov 25 16:58:49.014962 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Nov 25 16:58:49.014962 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Nov 25 16:58:49.014962 2019] [core:notice] [pid 18420:tid 648] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 25 16:58:49.017961 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00418: Parent: Created child process 19500
+[Mon Nov 25 16:58:49.967145 2019] [mpm_winnt:notice] [pid 19500:tid 560] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 25 16:58:50.967532 2019] [mpm_winnt:notice] [pid 24604:tid 524] AH00364: Child: All worker threads have exited.
+[Mon Nov 25 16:59:16.096061 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Nov 25 16:59:16.162457 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Nov 25 16:59:16.162457 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Nov 25 16:59:16.162457 2019] [core:notice] [pid 18420:tid 648] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 25 16:59:16.171445 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00418: Parent: Created child process 9568
+[Mon Nov 25 16:59:17.097224 2019] [mpm_winnt:notice] [pid 9568:tid 464] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 25 16:59:18.102565 2019] [mpm_winnt:notice] [pid 19500:tid 560] AH00364: Child: All worker threads have exited.
+[Mon Nov 25 17:04:20.762912 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 25 17:04:22.763796 2019] [mpm_winnt:notice] [pid 9568:tid 464] AH00364: Child: All worker threads have exited.
+[Mon Nov 25 17:04:22.792814 2019] [mpm_winnt:notice] [pid 18420:tid 648] AH00430: Parent: Child process 9568 exited successfully.
+[Mon Nov 25 17:17:26.121313 2019] [mpm_winnt:notice] [pid 4932:tid 624] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Nov 25 17:17:26.122312 2019] [mpm_winnt:notice] [pid 4932:tid 624] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Nov 25 17:17:26.122312 2019] [core:notice] [pid 4932:tid 624] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 25 17:17:26.124311 2019] [mpm_winnt:notice] [pid 4932:tid 624] AH00418: Parent: Created child process 19576
+[Mon Nov 25 17:17:26.620955 2019] [mpm_winnt:notice] [pid 19576:tid 4] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 25 17:20:05.310147 2019] [mpm_winnt:notice] [pid 4932:tid 624] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Nov 25 17:20:05.376638 2019] [mpm_winnt:notice] [pid 4932:tid 624] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Nov 25 17:20:05.376638 2019] [mpm_winnt:notice] [pid 4932:tid 624] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Nov 25 17:20:05.376638 2019] [core:notice] [pid 4932:tid 624] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 25 17:20:05.379638 2019] [mpm_winnt:notice] [pid 4932:tid 624] AH00418: Parent: Created child process 17776
+[Mon Nov 25 17:20:06.310663 2019] [mpm_winnt:notice] [pid 17776:tid 576] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 25 17:20:07.310934 2019] [mpm_winnt:notice] [pid 19576:tid 4] AH00364: Child: All worker threads have exited.
+[Mon Nov 25 17:20:08.369279 2019] [mpm_winnt:notice] [pid 4932:tid 624] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 25 17:20:10.370858 2019] [mpm_winnt:notice] [pid 17776:tid 576] AH00364: Child: All worker threads have exited.
+[Mon Nov 25 17:20:10.400511 2019] [mpm_winnt:notice] [pid 4932:tid 624] AH00430: Parent: Child process 17776 exited successfully.
+[Mon Dec 02 00:01:27.472998 2019] [mpm_winnt:notice] [pid 10068:tid 640] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Dec 02 00:01:27.494215 2019] [mpm_winnt:notice] [pid 10068:tid 640] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Dec 02 00:01:27.494215 2019] [core:notice] [pid 10068:tid 640] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 02 00:01:27.503269 2019] [mpm_winnt:notice] [pid 10068:tid 640] AH00418: Parent: Created child process 23768
+[Mon Dec 02 00:01:28.032331 2019] [mpm_winnt:notice] [pid 23768:tid 156] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 02 00:03:58.264601 2019] [mpm_winnt:notice] [pid 10068:tid 640] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 02 00:03:58.325887 2019] [mpm_winnt:notice] [pid 10068:tid 640] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Dec 02 00:03:58.325887 2019] [mpm_winnt:notice] [pid 10068:tid 640] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Dec 02 00:03:58.325887 2019] [core:notice] [pid 10068:tid 640] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 02 00:03:58.333885 2019] [mpm_winnt:notice] [pid 10068:tid 640] AH00418: Parent: Created child process 2860
+[Mon Dec 02 00:03:59.265701 2019] [mpm_winnt:notice] [pid 2860:tid 144] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 02 00:04:00.266624 2019] [mpm_winnt:notice] [pid 23768:tid 156] AH00364: Child: All worker threads have exited.
+[Mon Dec 02 00:04:55.817350 2019] [mpm_winnt:notice] [pid 10068:tid 640] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 02 00:04:55.931310 2019] [mpm_winnt:notice] [pid 10068:tid 640] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Dec 02 00:04:55.931310 2019] [mpm_winnt:notice] [pid 10068:tid 640] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Dec 02 00:04:55.931310 2019] [core:notice] [pid 10068:tid 640] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 02 00:04:55.940282 2019] [mpm_winnt:notice] [pid 10068:tid 640] AH00418: Parent: Created child process 20528
+[Mon Dec 02 00:04:56.819100 2019] [mpm_winnt:notice] [pid 20528:tid 576] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 02 00:04:57.819308 2019] [mpm_winnt:notice] [pid 2860:tid 144] AH00364: Child: All worker threads have exited.
+[Mon Dec 02 17:02:24.356924 2019] [mpm_winnt:notice] [pid 10068:tid 640] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 02 17:02:26.377947 2019] [mpm_winnt:notice] [pid 20528:tid 576] AH00364: Child: All worker threads have exited.
+[Mon Dec 02 17:02:26.422986 2019] [mpm_winnt:notice] [pid 10068:tid 640] AH00430: Parent: Child process 20528 exited successfully.
+[Mon Dec 02 23:53:42.631057 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Dec 02 23:53:42.656815 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Dec 02 23:53:42.656815 2019] [core:notice] [pid 18176:tid 604] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 02 23:53:42.659819 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00418: Parent: Created child process 10928
+[Mon Dec 02 23:53:43.157513 2019] [mpm_winnt:notice] [pid 10928:tid 4] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 02 23:55:10.168917 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 02 23:55:10.244949 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Dec 02 23:55:10.244949 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Dec 02 23:55:10.245950 2019] [core:notice] [pid 18176:tid 604] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 02 23:55:10.253567 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00418: Parent: Created child process 13868
+[Mon Dec 02 23:55:11.170139 2019] [mpm_winnt:notice] [pid 13868:tid 552] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 02 23:55:14.391937 2019] [mpm_winnt:notice] [pid 10928:tid 4] AH00364: Child: All worker threads have exited.
+[Mon Dec 02 23:58:08.949598 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 02 23:58:09.005564 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Dec 02 23:58:09.005564 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Dec 02 23:58:09.005564 2019] [core:notice] [pid 18176:tid 604] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 02 23:58:09.008563 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00418: Parent: Created child process 15160
+[Mon Dec 02 23:58:09.949959 2019] [mpm_winnt:notice] [pid 15160:tid 144] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 02 23:58:10.951024 2019] [mpm_winnt:notice] [pid 13868:tid 552] AH00364: Child: All worker threads have exited.
+[Mon Dec 02 23:59:28.531055 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Dec 02 23:59:28.630993 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Mon Dec 02 23:59:28.630993 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Dec 02 23:59:28.630993 2019] [core:notice] [pid 18176:tid 604] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 02 23:59:28.634991 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00418: Parent: Created child process 11220
+[Mon Dec 02 23:59:29.532528 2019] [mpm_winnt:notice] [pid 11220:tid 584] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 02 23:59:30.533182 2019] [mpm_winnt:notice] [pid 15160:tid 144] AH00364: Child: All worker threads have exited.
+[Tue Dec 03 00:00:03.675232 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Dec 03 00:00:03.819143 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Tue Dec 03 00:00:03.819143 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Dec 03 00:00:03.819143 2019] [core:notice] [pid 18176:tid 604] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 03 00:00:03.849125 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00418: Parent: Created child process 17040
+[Tue Dec 03 00:00:04.676619 2019] [mpm_winnt:notice] [pid 17040:tid 568] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 03 00:00:05.677008 2019] [mpm_winnt:notice] [pid 11220:tid 584] AH00364: Child: All worker threads have exited.
+[Tue Dec 03 00:00:21.154953 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Dec 03 00:00:21.225317 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Tue Dec 03 00:00:21.225317 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Dec 03 00:00:21.225317 2019] [core:notice] [pid 18176:tid 604] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 03 00:00:21.234298 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00418: Parent: Created child process 12520
+[Tue Dec 03 00:00:22.156288 2019] [mpm_winnt:notice] [pid 12520:tid 580] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 03 00:00:23.156618 2019] [mpm_winnt:notice] [pid 17040:tid 568] AH00364: Child: All worker threads have exited.
+[Tue Dec 03 00:00:56.820153 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Dec 03 00:00:56.879119 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Tue Dec 03 00:00:56.879119 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Dec 03 00:00:56.879119 2019] [core:notice] [pid 18176:tid 604] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 03 00:00:56.884116 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00418: Parent: Created child process 30388
+[Tue Dec 03 00:00:58.078385 2019] [mpm_winnt:notice] [pid 30388:tid 648] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 03 00:00:58.825539 2019] [mpm_winnt:notice] [pid 12520:tid 580] AH00364: Child: All worker threads have exited.
+[Tue Dec 03 00:02:50.733712 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 03 00:02:52.736056 2019] [mpm_winnt:notice] [pid 30388:tid 648] AH00364: Child: All worker threads have exited.
+[Tue Dec 03 00:02:52.766091 2019] [mpm_winnt:notice] [pid 18176:tid 604] AH00430: Parent: Child process 30388 exited successfully.
+[Tue Dec 03 10:30:23.768447 2019] [mpm_winnt:notice] [pid 29100:tid 648] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Tue Dec 03 10:30:23.769447 2019] [mpm_winnt:notice] [pid 29100:tid 648] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Tue Dec 03 10:30:23.769447 2019] [core:notice] [pid 29100:tid 648] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Dec 03 10:30:23.771446 2019] [mpm_winnt:notice] [pid 29100:tid 648] AH00418: Parent: Created child process 24428
+[Tue Dec 03 10:30:24.209080 2019] [mpm_winnt:notice] [pid 24428:tid 552] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 04 09:47:00.202228 2019] [mpm_winnt:notice] [pid 29100:tid 648] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Dec 04 09:47:01.812387 2019] [mpm_winnt:notice] [pid 29100:tid 648] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Wed Dec 04 09:47:01.812387 2019] [mpm_winnt:notice] [pid 29100:tid 648] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Wed Dec 04 09:47:01.812387 2019] [core:notice] [pid 29100:tid 648] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Dec 04 09:47:01.823378 2019] [mpm_winnt:notice] [pid 29100:tid 648] AH00418: Parent: Created child process 21188
+[Wed Dec 04 09:47:02.267101 2019] [mpm_winnt:notice] [pid 24428:tid 552] AH00364: Child: All worker threads have exited.
+[Wed Dec 04 09:47:02.527105 2019] [mpm_winnt:notice] [pid 21188:tid 572] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 04 09:51:35.678027 2019] [http:error] [pid 21188:tid 1060] [client ::1:64548] AH02429: Response header name '<!--' contains invalid characters, aborting request, referer: http://localhost:85/search.html?query=sodexo
+[Wed Dec 04 09:54:10.543992 2019] [http:error] [pid 21188:tid 1076] [client ::1:64588] AH02429: Response header name '<!--' contains invalid characters, aborting request, referer: http://localhost:85/search.html?query=
+[Wed Dec 04 09:54:32.758266 2019] [http:error] [pid 21188:tid 1044] [client ::1:64596] AH02429: Response header name '<!--' contains invalid characters, aborting request, referer: http://localhost:85/search.html?query=%3B+DROP+TABLES+--
+[Wed Dec 04 09:55:46.424354 2019] [http:error] [pid 21188:tid 1060] [client ::1:64615] AH02429: Response header name '<!--' contains invalid characters, aborting request, referer: http://localhost:85/search.html?query=Robert%27%29%3B+DROP+TABLE+parsedFood%3B--
+[Wed Dec 04 15:14:56.559299 2019] [http:error] [pid 21188:tid 1060] [client ::1:58324] AH02429: Response header name '<!--' contains invalid characters, aborting request, referer: http://localhost:85/search.html?query=admin
+[Thu Dec 05 14:29:10.014815 2019] [mpm_winnt:notice] [pid 29100:tid 648] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Dec 05 14:29:12.234341 2019] [mpm_winnt:notice] [pid 21188:tid 572] AH00364: Child: All worker threads have exited.
+[Thu Dec 05 14:29:12.508032 2019] [mpm_winnt:notice] [pid 29100:tid 648] AH00430: Parent: Child process 21188 exited successfully.
+[Fri Dec 06 10:44:53.852542 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Dec 06 10:44:53.868184 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Dec 06 10:44:53.868184 2019] [core:notice] [pid 30708:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Dec 06 10:44:53.873926 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00418: Parent: Created child process 11788
+[Fri Dec 06 10:44:54.392755 2019] [mpm_winnt:notice] [pid 11788:tid 4] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 06 10:46:30.408162 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Dec 06 10:46:30.468120 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Dec 06 10:46:30.468120 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Dec 06 10:46:30.468120 2019] [core:notice] [pid 30708:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Dec 06 10:46:30.473121 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00418: Parent: Created child process 21040
+[Fri Dec 06 10:46:31.408878 2019] [mpm_winnt:notice] [pid 21040:tid 560] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 06 10:46:32.410387 2019] [mpm_winnt:notice] [pid 11788:tid 4] AH00364: Child: All worker threads have exited.
+[Fri Dec 06 10:46:38.817221 2019] [cgi:error] [pid 21040:tid 1116] (OS 2)The system cannot find the file specified.  : [client ::1:50578] couldn't create child process: 720002: ex.py, referer: http://localhost:85/explore.html
+[Fri Dec 06 10:46:38.817221 2019] [cgi:error] [pid 21040:tid 1116] (OS 2)The system cannot find the file specified.  : [client ::1:50578] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/ex.py, referer: http://localhost:85/explore.html
+[Fri Dec 06 10:56:34.844105 2019] [http:error] [pid 21040:tid 1108] [client ::1:50637] AH02429: Response header name '<!--' contains invalid characters, aborting request, referer: http://localhost:85/search.html?query=bagels');%20DROP%20TABLES%20parsedFood;--
+[Fri Dec 06 11:09:54.210038 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Dec 06 11:09:54.267815 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Dec 06 11:09:54.267815 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Dec 06 11:09:54.267815 2019] [core:notice] [pid 30708:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Dec 06 11:09:54.270814 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00418: Parent: Created child process 22940
+[Fri Dec 06 11:09:55.211634 2019] [mpm_winnt:notice] [pid 22940:tid 568] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 06 11:09:56.212592 2019] [mpm_winnt:notice] [pid 21040:tid 560] AH00364: Child: All worker threads have exited.
+[Fri Dec 06 11:10:01.933364 2019] [cgi:error] [pid 22940:tid 1116] (OS 2)The system cannot find the file specified.  : [client ::1:50659] couldn't create child process: 720002: ex.py, referer: http://localhost:85/explore.html
+[Fri Dec 06 11:10:01.934364 2019] [cgi:error] [pid 22940:tid 1116] (OS 2)The system cannot find the file specified.  : [client ::1:50659] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/ex.py, referer: http://localhost:85/explore.html
+[Fri Dec 06 11:10:07.245722 2019] [cgi:error] [pid 22940:tid 1116] (OS 2)The system cannot find the file specified.  : [client ::1:50660] couldn't create child process: 720002: ex.py, referer: http://localhost:85/explore.html
+[Fri Dec 06 11:10:07.245722 2019] [cgi:error] [pid 22940:tid 1116] (OS 2)The system cannot find the file specified.  : [client ::1:50660] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/ex.py, referer: http://localhost:85/explore.html
+[Fri Dec 06 11:12:26.837367 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Dec 06 11:12:26.888337 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Dec 06 11:12:26.888337 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Dec 06 11:12:26.888337 2019] [core:notice] [pid 30708:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Dec 06 11:12:26.891328 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00418: Parent: Created child process 29804
+[Fri Dec 06 11:12:27.839492 2019] [mpm_winnt:notice] [pid 29804:tid 576] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 06 11:12:28.840519 2019] [mpm_winnt:notice] [pid 22940:tid 568] AH00364: Child: All worker threads have exited.
+[Fri Dec 06 11:12:34.975751 2019] [cgi:error] [pid 29804:tid 1108] [client ::1:50665] End of script output before headers: ex.py, referer: http://localhost:85/explore.html
+[Fri Dec 06 11:12:34.976750 2019] [cgi:error] [pid 29804:tid 1108] [client ::1:50665] AH01215: C:\\ProgramData\\Anaconda3\\python.exe: can't open file '%L': [Errno 2] No such file or directory: C:/Apache24/cgi-bin/ex.py, referer: http://localhost:85/explore.html
+[Fri Dec 06 11:12:41.554387 2019] [cgi:error] [pid 29804:tid 1104] [client ::1:50668] End of script output before headers: st.py, referer: http://localhost:85/search.html?query=bagels
+[Fri Dec 06 11:12:41.554387 2019] [cgi:error] [pid 29804:tid 1104] [client ::1:50668] AH01215: C:\\ProgramData\\Anaconda3\\python.exe: can't open file '%L': [Errno 2] No such file or directory: C:/Apache24/cgi-bin/st.py, referer: http://localhost:85/search.html?query=bagels
+[Fri Dec 06 11:15:35.370528 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Dec 06 11:15:35.408367 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Dec 06 11:15:35.408367 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Dec 06 11:15:35.408367 2019] [core:notice] [pid 30708:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Dec 06 11:15:35.411364 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00418: Parent: Created child process 18848
+[Fri Dec 06 11:15:36.372129 2019] [mpm_winnt:notice] [pid 18848:tid 168] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 06 11:15:37.379638 2019] [mpm_winnt:notice] [pid 29804:tid 576] AH00364: Child: All worker threads have exited.
+[Fri Dec 06 11:15:39.613609 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Dec 06 11:15:39.659179 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Dec 06 11:15:39.659179 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Dec 06 11:15:39.659179 2019] [core:notice] [pid 30708:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Dec 06 11:15:39.661179 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00418: Parent: Created child process 13408
+[Fri Dec 06 11:15:40.614548 2019] [mpm_winnt:notice] [pid 13408:tid 564] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 06 11:15:41.619963 2019] [mpm_winnt:notice] [pid 18848:tid 168] AH00364: Child: All worker threads have exited.
+[Fri Dec 06 11:15:49.779012 2019] [cgi:error] [pid 13408:tid 1064] [client ::1:50683] End of script output before headers: st.py, referer: http://localhost:85/search.html?query=bagels
+[Fri Dec 06 11:15:49.779012 2019] [cgi:error] [pid 13408:tid 1064] [client ::1:50683] AH01215: C:\\ProgramData\\Anaconda3\\python.exe: can't open file '%L': [Errno 2] No such file or directory: C:/Apache24/cgi-bin/st.py, referer: http://localhost:85/search.html?query=bagels
+[Fri Dec 06 11:16:25.216583 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Dec 06 11:16:25.263848 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Dec 06 11:16:25.263848 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Dec 06 11:16:25.263848 2019] [core:notice] [pid 30708:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Dec 06 11:16:25.266854 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00418: Parent: Created child process 26836
+[Fri Dec 06 11:16:26.217893 2019] [mpm_winnt:notice] [pid 26836:tid 556] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 06 11:16:27.218654 2019] [mpm_winnt:notice] [pid 13408:tid 564] AH00364: Child: All worker threads have exited.
+[Fri Dec 06 11:16:36.628068 2019] [cgi:error] [pid 26836:tid 1112] (OS 2)The system cannot find the file specified.  : [client ::1:50686] couldn't create child process: 720002: ex.py, referer: http://localhost:85/explore.html
+[Fri Dec 06 11:16:36.628068 2019] [cgi:error] [pid 26836:tid 1112] (OS 2)The system cannot find the file specified.  : [client ::1:50686] AH01223: couldn't spawn child process: C:/Apache24/cgi-bin/ex.py, referer: http://localhost:85/explore.html
+[Fri Dec 06 13:23:06.556290 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Dec 06 13:23:07.912185 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Dec 06 13:23:07.912185 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Dec 06 13:23:07.912185 2019] [core:notice] [pid 30708:tid 632] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Dec 06 13:23:07.945165 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00418: Parent: Created child process 20264
+[Fri Dec 06 13:23:08.558395 2019] [mpm_winnt:notice] [pid 26836:tid 556] AH00364: Child: All worker threads have exited.
+[Fri Dec 06 13:23:08.781900 2019] [mpm_winnt:notice] [pid 20264:tid 572] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 06 13:23:14.743302 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 06 13:23:16.744977 2019] [mpm_winnt:notice] [pid 20264:tid 572] AH00364: Child: All worker threads have exited.
+[Fri Dec 06 13:23:16.763673 2019] [mpm_winnt:notice] [pid 30708:tid 632] AH00430: Parent: Child process 20264 exited successfully.
+[Fri Dec 06 13:23:19.549682 2019] [mpm_winnt:notice] [pid 32520:tid 648] AH00455: Apache/2.4.41 (Win64) configured -- resuming normal operations
+[Fri Dec 06 13:23:19.550657 2019] [mpm_winnt:notice] [pid 32520:tid 648] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Dec 06 13:23:19.550657 2019] [core:notice] [pid 32520:tid 648] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Dec 06 13:23:19.553656 2019] [mpm_winnt:notice] [pid 32520:tid 648] AH00418: Parent: Created child process 12036
+[Fri Dec 06 13:23:20.155503 2019] [mpm_winnt:notice] [pid 12036:tid 520] AH00354: Child: Starting 64 worker threads.
+[Fri Dec 06 13:23:51.590888 2019] [mpm_winnt:notice] [pid 32520:tid 648] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Dec 06 13:23:53.592720 2019] [mpm_winnt:notice] [pid 12036:tid 520] AH00364: Child: All worker threads have exited.
+[Fri Dec 06 13:23:53.609711 2019] [mpm_winnt:notice] [pid 32520:tid 648] AH00430: Parent: Child process 12036 exited successfully.

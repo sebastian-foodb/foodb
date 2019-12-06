@@ -1,0 +1,86 @@
+/*Created by Sebastian for FooDB*/
+
+/*created 05/10/19*/
+/*updated 20/10/19*/
+
+a
+{
+  text-decoration: none;
+  color: #005500;
+}
+a:hover
+{
+  background-color: #00e700;
+}
+
+.background
+{
+  position: absolute;
+  height: 100%;
+  background-image: linear-gradient(#00e700,#00b700);
+}
+.uicontainer
+{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 10% 0%;
+}
+.background,.uicontainer
+{
+  left: 0%;
+  top: 0%;
+  width: 100%;
+}
+
+/*logo and subtitle*/
+.logo
+{
+  height: auto;
+  font-size: 120px;
+  grid-row: 1/2;
+}
+.subtitle
+{
+  height: auto;
+  font-size: 36px;
+  grid-row: 1/2;
+}
+.logo,.subtitle
+{
+  font-family: "Helvetica";
+  font-weight: bold;
+  color: #eeffee;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+/*search bar*/
+.searchbar
+{
+  width: 100%;
+  padding: 10% 0% 0%;
+  grid-row: 2/3;
+}
+.searchbar input[type=text]
+{
+  font-family: "Helvetica";
+  font-weight: lighter;
+  font-size: 20px;
+  width: 100%;
+  padding: 1%;
+  text-align: left;
+  color: #005500;
+  background-color: #eeffee;
+  text-overflow: ellipsis;
+}
+
+/*links underneath the search bar*/
+.linkgrid
+{
+  font-family: "Helvetica";
+  font-weight: lighter;
+  text-align: center;
+  padding: 5%;
+  grid-row: 3/4;;
+}

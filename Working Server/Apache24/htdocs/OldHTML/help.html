@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>cgi test page</title>
+  </head>
+
+  <body style="background-color: #0000ff">
+    <h1>this SHOULD be here</h1>
+    <form id="theform">
+      <input id="foodsearch" name="keyname" placeholder="search database" type="text">
+    </form>
+    <div id="thep">
+      <!--search results get added to this div-->
+    </div>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script type="application/javascript">
+    //surrounding in $(document).ready() is not necessary
+    $("#theform").submit(function(owo)
+    {
+      owo.preventDefault();
+      $.ajax(
+        {
+          type: "GET",                //no significant difference between GET and POST
+          data: $(this).serialize(),  //formats data as inputName:textTypedInForm
+          url: "cgi-bin/testo.py"     //cgi-bin --> Library/WebServer/CGI-Executables
+        })
+        .done(function(hisscode)      //argument is the output of the python script
+        {
+          alert("you done did good, kid");
+          $("#thep").html(hisscode);
+        })
+        .fail(function(xhr,status,error)
+        {
+          $("#thep").html("hoo boy<br>"+xhr+"<br>"+status+"<br>"+error);
+          $("h1").html(x);
+        });
+      });
+    </script>
+  </body>
+</html>

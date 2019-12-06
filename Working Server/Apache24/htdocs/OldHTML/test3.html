@@ -1,0 +1,66 @@
+<!--Created by Sebastian for FooDB-->
+
+<!--created 02/10/19-->
+<!--updated 06/10/19-->
+<!--For Nathan's Testing Purposes-->
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FooDB: Culinary Database</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!--main page formatting will be offloaded to CSS-->
+    <link rel="stylesheet" href="search.css"/>
+
+    <script>
+
+            $(function()
+            {
+                $('#clickme').click(function(){
+                    //alert('Im going to start processing');
+					var searchField = $("#clickme_text");
+					//alert(searchField.val());
+                    $.ajax({
+                        url: "http://localhost:85/cgi-bin/form.py",
+                        type: "POST",
+                        datatype:"json",
+                        data: {query: searchField.val()},
+                        success: function(response){
+                            //alert('Yooo');
+                            //alert(response);
+							$("#div").html(response);
+                        },
+                        error : function(ts) {
+                            alert(ts.responseStatus);
+                            alert(this.url);
+                        }
+                    });
+                      return false;
+                });
+				
+            });
+
+        </script>
+
+
+  </head>
+
+  <body>
+    <!--search bar-->
+
+	<input type="text" value="egg" id="clickme_text">
+	<input type="button" value="search" id="clickme">
+	
+	<div id="div">Default Stuff</div>
+    <!--javascript functionality-->
+
+
+    <!--<script type="text/javascript" src="javascriptDB.js"></script>-->
+  </body>
+
+
+</html>

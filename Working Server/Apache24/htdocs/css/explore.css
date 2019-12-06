@@ -1,0 +1,62 @@
+/*Created by Sebastian for FooDB*/
+
+/*created 28/10/19*/
+/*updated 03/12/19*/
+
+a
+{
+  color: #005500;
+  text-decoration: none;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1
+{
+  font-family: "Helvetica";
+  font-weight: normal;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.background
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-image: linear-gradient(#00e700,#00b700);
+  display: flex;
+  justify-content: center;
+}
+
+.explore
+{
+  position: absolute;
+  display: grid;
+  width: 80%;
+  top: 30%;
+  padding-left: 5vw;
+  grid-template-columns: repeat(3,auto);
+}
+
+.explorebox
+{
+  background-image: linear-gradient(#eeffee,#eecfee);
+  height: 60vh;
+  width: 20vw;
+}
+
+.foodtitle
+{
+  color: #005500;
+}
+
+#exploreheader
+{
+  /* TODO */
+  color: #eeffee;
+  font-weight: bolder;
+  font-size: 96px;
+}
